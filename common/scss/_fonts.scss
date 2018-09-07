@@ -1,0 +1,71 @@
+/*--------------------------------------------------------------
+ font-face
+--------------------------------------------------------------*/
+
+@mixin roboto-font-style {
+  font-family: 'Roboto';
+  font-style: normal;
+}
+
+@mixin roboto_condense-font-style {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+}
+
+@mixin font-weight($font-weight) {
+  font-weight: $font-weight;
+}
+
+@font-face {
+  @include roboto-font-style;
+  @include font-weight(100);
+  src: local('Roboto Thin'), local('Roboto-Thin'), url(../fonts/Roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+  @include roboto-font-style;
+  @include font-weight(300);
+  src: local('Roboto Light'), local('Roboto-Light'), url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+  @include roboto-font-style;
+  @include font-weight(400);
+  src: local('Roboto'), local('Roboto-Regular'), url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  @include roboto-font-style;
+  @include font-weight(500);
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+  @include roboto-font-style;
+  @include font-weight(700);
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  @include roboto-font-style;
+  @include font-weight(900);
+  src: local('Roboto Black'), local('Roboto-Black'), url(../fonts/Roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+  @include roboto_condense-font-style;
+  @include font-weight(300);
+  src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url(../fonts/Roboto_Condensed/RobotoCondensed-Light.ttf);
+}
+
+@font-face {
+  @include roboto_condense-font-style;
+  @include font-weight(400);
+  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+  @include roboto_condense-font-style;
+  @include font-weight(700);
+  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(../fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf);
+}

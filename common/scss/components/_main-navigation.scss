@@ -1,0 +1,42 @@
+/*--------------------------------------------------
+  main-nav
+--------------------------------------------------*/
+
+@mixin main-nav($extend: true) {
+  @if $extend {
+    @extend %main-nav;
+  } @else {
+    & {
+      display: flex;
+      list-style: none;
+    }
+
+    & li { height: $navigation-height; }
+
+    & a {
+      display: block;
+      padding: 0 30px;
+      color: #FFF;
+      font-size: 1.5rem;
+      line-height: $navigation-height;
+      text-decoration: none;
+    }
+
+    & a:hover,
+    & a.active { 
+      background-color: $active-color; 
+    }
+  }
+}
+  
+%main-nav { @include main-nav($extend: false); }
+
+.main-nav { @include main-nav; }
+
+@media only screen and (max-width: $media-medium) {
+  .main-nav { 
+    flex-direction: column;
+
+    & a { padding: 0 10px; }
+  }
+}

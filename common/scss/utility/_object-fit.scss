@@ -1,0 +1,38 @@
+// Helper - Object-fit
+// Note: Edge/IE does not support object-fit
+// object-fit.js added for support
+
+/*--------------------------------------------------
+  Object-fit
+--------------------------------------------------*/
+
+%object-fit-fill { 
+  object-fit: fill; 
+  font-family: 'object-fit: fill;'
+}
+
+%object-fit-contain { 
+  object-fit: contain;
+  font-family: 'object-fit: contain;'
+}
+
+%object-fit-cover { 
+  object-fit: cover;
+  font-family: 'object-fit: cover;'
+}
+
+%object-fit-none { 
+  object-fit: none;
+  font-family: 'object-fit: none;'
+}
+
+%object-fit-scale_down { 
+  object-fit: scale-down;
+  font-family: 'object-fit: scale-down;'
+}
+
+.object-fit-fill { @extend %object-fit-fill; }
+.object-fit-contain { @extend %object-fit-contain; }
+.object-fit-cover { @extend %object-fit-cover; }
+.object-fit-none { @extend %object-fit-none; }
+.object-fit-scale_down { @extend %object-fit-scale_down; }

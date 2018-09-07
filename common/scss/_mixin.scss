@@ -1,0 +1,28 @@
+@mixin ua-pad-mar-reset {
+  padding: 0;
+  margin: 0;
+}
+
+@mixin box-sizing($box-size) {
+  -webkit-box-sizing: $box-size;
+  -moz-box-sizing: $box-size;
+  box-sizing: $box-size;
+}
+
+@mixin text-size-adjust($text-size) {
+  -ms-text-size-adjust: $text-size;
+  -webkit-text-size-adjust: $text-size;
+}
+
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin img-render-crisp {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+}

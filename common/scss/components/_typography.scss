@@ -1,0 +1,35 @@
+/*--------------------------------------------------
+  heading-title
+--------------------------------------------------*/
+
+@mixin title($extend: true) {
+  @if $extend {
+    @extend %title;
+  } @else {
+    & {
+      color: $primary-color;
+      font-size: $large-size;
+      padding: 0 0 10px;
+      margin: 0 0 40px;
+      border-bottom: 1px solid $primary-color;
+    }
+  }
+}
+
+%title { @include title($extend: false); }
+
+.heading-title { @include title; }
+
+.heading-title.sub {
+  @include title;
+  font-size: $default-size;
+  border-color: #CCC;
+  margin: 0 0 20px;
+}
+
+.heading-title.sub2 {
+  @include title;
+  font-size: $medium-size;
+  border-color: #EEE;
+  margin: 0 0 20px;
+}

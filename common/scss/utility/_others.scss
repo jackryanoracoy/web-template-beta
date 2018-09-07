@@ -1,0 +1,41 @@
+// Helper - Others
+
+/*--------------------------------------------------
+  Display according to viewport
+--------------------------------------------------*/
+
+@media only screen and (min-width: $media-medium + 1) {
+  .mobile { display: none !important; }
+}
+
+@media only screen and (max-width: $media-medium) {
+  .desktop { display: none !important; }
+}
+
+/*--------------------------------------------------
+  Float
+--------------------------------------------------*/
+
+.float-left { float: left; }
+.float-right { float: right; }
+
+/*--------------------------------------------------
+  Typoghrapy
+--------------------------------------------------*/
+
+.text-center { text-align: center; }
+.text-justify { text-align: justify; }
+.text-right { text-align: right; }
+.bold { font-weight: bold; }
+.underline { text-decoration: underline; }
+.font-small { font-size: $small-size; }
+.font-medium { font-size: $medium-size; }
+.font-large { font-size: $large-size; }
+.font-large { font-size: $extra-large-size; }
+
+
+/*--------------------------------------------------
+  Z-depth
+--------------------------------------------------*/
+
+.z-depth { box-shadow: $z-depth; }

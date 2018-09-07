@@ -1,0 +1,33 @@
+/*--------------------------------------------------
+  card
+--------------------------------------------------*/
+
+@mixin card($extend: true) {
+  @if $extend {
+    @extend %card;
+  } @else {
+    & {
+      height: $card-height;
+      background-color: $card-color;
+      border: $card-border;
+      border-radius: $card-radius;
+      box-shadow: $card-shadow;
+      margin: $card-gutter;
+
+      & .card-content {
+        padding: $card-padding;
+      }
+    }
+    
+    @at-root {
+      /* Add class "card-cluster" to grandparent/parent */
+      div.card-cluster {
+        margin: -$card-gutter;
+      }
+    }
+  }
+}
+
+%card { @include card($extend: false); }
+
+.card { @include card; }

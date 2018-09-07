@@ -1,0 +1,35 @@
+/*--------------------------------------------------
+  site-branding
+--------------------------------------------------*/
+
+@mixin site-branding($extend: true) {
+  @if $extend {
+    @extend %site-branding;
+  } @else {
+    & {
+      color: #FFF;
+      font-size: $large-size;
+      line-height: 1;
+      white-space: nowrap;
+    
+      & a {
+        color: #FFF;
+        text-decoration: none;
+      }
+    
+      & img { max-width: 100%; }
+    }
+  }
+}
+
+%site-branding { @include site-branding($extend: false); }
+
+.site-branding { @include site-branding; }
+
+@media only screen and (min-width: $media-medium + 1) {
+  .site-branding { font-size: $extra-large-size; }
+}
+
+@media only screen and (max-width: $media-medium) {
+  .site-branding { margin: 0 10px; }
+}

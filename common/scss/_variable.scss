@@ -1,0 +1,113 @@
+// font family
+$font-family: 'Roboto', sans-serif;
+$font-family-condensed: 'Roboto Condensed', sans-serif;
+
+// media screen (This are common breakpoints).
+// Please don't target specific device viewports, instead make a breakpoint when the design needs to (a point that it breaks).
+// Note: the below breakpoints are mainly used for grid layout.
+$media-small: 600px;
+$media-medium: 992px;
+$media-large: 1100px;
+
+// Alternative
+// $media-small: 480px;
+// $media-medium: 720px;
+// $media-medium: 1024px;
+
+// Custom breakpoint
+$media-custom-1: 768px;
+
+// layout
+$max-width: 1000px;
+$header-height: 80px;
+$header-height_m: 60px;
+$navigation-height: 50px;
+
+// width
+$col-width-1: 8.33333%;
+$col-width-2: 16.66666%;
+$col-width-3: 24.99999%;
+$col-width-4: 33.33333%;
+$col-width-5: 41.66666%;
+$col-width-6: 49.99999%;
+$col-width-7: 58.33333%;
+$col-width-8: 66.66666%;
+$col-width-9: 74.99999%;
+$col-width-10: 83.33333%;
+$col-width-11: 91.66666%;
+$col-width-12: 99.99999%;
+
+$col-width-list: 8.33333% 16.66666% 24.99999% 33.33333% 41.66666% 49.99999% 58.33333% 66.66666% 74.99999% 83.33333% 91.66666% 99.99999%;
+
+// color
+$default-color: rgba(0, 0, 0, 0.85);
+$primary-color: #212121;
+$accent-color: #BDBDBD;
+$hover-color: #EEE;
+$active-color: #999;
+
+$button-color: #FAFAFA;
+$button-color-alt-1: #F00;
+$button-color-alt-2: #0F0;
+$button-color-alt-3: #00F;
+$button-text-color: #000;
+$button-hover-color: #EEE;
+$button-hover-text-color: #555;
+
+$grey-50: #FAFAFA;
+$grey-100: #F5F5F5;
+$grey-200: #EEEEEE;
+$grey-300: #E0E0E0;
+$grey-400: #BDBDBD;
+$grey-500: #999999;
+$grey-600: #757575;
+$grey-700: #616161;
+$grey-800: #424242;
+$grey-900: #212121;
+
+$white: #FFF;
+$black: #000;
+$red: #F44336;
+$pink: #E91E63;
+$purple: #9C27B0;
+$deep-purple: #673AB7;
+$indigo: #3F51B5;
+$blue: #2196F3;
+$light-blue: #03A9F4;
+$cyan: #00BCD4;
+$teal: #009688;
+$green: #4CAF50;
+$light-green: #8BC34A;
+$lime: #CDDC39;
+$yellow: #FFEB3B;
+$amber: #FFC107;
+$orange: #FF9800;
+$deep-orange: #FF5722;
+$brown: #795548;
+$grey: #9E9E9E;
+$blue-grey: #607D8B;
+
+// font-sizes
+$default-size: 1.5rem;
+$small-size: 1.2rem;
+$medium-size: 1.4rem;
+$large-size: 1.8rem;
+$extra-large-size: 2.2rem;
+
+// line-height
+$small-height: 1.2;
+$normal-height: 1.5;
+$large-height: 2;
+
+// box-shadow
+$z-depth: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+$z-depth-1: 0 2px 4px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.15), 0 3px 1px -2px rgba(0,0,0,0.2);
+
+// card
+$card-height: auto;
+$card-color: #FAFAFA;
+$card-radius: 2px;
+$card-border: 1px solid #EEE;
+$card-padding: 15px;
+$card-gutter: 5px;
+$card-shadow: 0 1px 2px 0 rgba(0,0,0,0.12);
