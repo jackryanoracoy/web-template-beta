@@ -2,11 +2,7 @@
 Created and Developed by Jack Ryan Oracoy  
   
 jackryanoracoy@gmail.com  
-lngrzproject@gmail.com  
-https://facebook.com/JackRyanOracoy  
-https://facebook.com/LNGRZ  
-https://github.com/jackryanoracoy  
-https://bitbucket.org/LNGRZ  
+lngrzproject@gmail.com   
   
   
 PORTAL  
@@ -15,16 +11,17 @@ Github     :   https://github.com/jackryanoracoy
 Facebook   :   https://facebook.com/JackRyanOracoy  
 Twitter    :   https://twitter.com/JackRyanOracoy  
 Behance    :   https://www.behance.net/jackryanor7dac  
+LinkedIn   :   https://www.linkedin.com/in/jackryanoracoy
   
   
 ABOUT  
 ------------------------------------------------------------  
-JACKRO is built using the most mature, stable, and powerful professional grade CSS extension language in the world (SASS).  
+Modern Template - Sassify is built using the most mature, stable, and powerful professional grade CSS extension language in the world (SASS).  
   
   
 CONTENT  
 ------------------------------------------------------------  
 Codebase; HTML5, CSS3, JQuery, SASS.  
 Pagespeed optimized codebase.  
-AppCache (Offline).  
+Service workers (Offline Cache).  
 App icons and favicons.   
