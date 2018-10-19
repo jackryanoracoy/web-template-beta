@@ -17,39 +17,11 @@
 
 %col { @include col($extend: false); }
 
-@mixin col-flex($extend: true) {
-  @if $extend {
-    @extend %col-flex;
-  } @else {
-    & {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    &.center {
-      align-items: center;
-      justify-content: center;
-    }
-
-    &.center_h { justify-content: center; }
-    &.center_v { align-items: center; }
-  }
-}
-
-%col-flex { @include col-flex($extend: false); }
-
 @each $column-width in $col-width-list {
   $i: index($col-width-list, $column-width);
   .col { 
     @include col;
     &.xs#{$i} { width: nth($col-width-list, $i); }
-  }
-
-  .col-flex { 
-    @include col-flex;
-    .flex-content {
-      &.xs#{$i} { width: nth($col-width-list, $i); }
-    }
   }
 }
 
@@ -58,12 +30,6 @@
     $i: index($col-width-list, $column-width);
     .col { 
       &.s#{$i} { width: nth($col-width-list, $i); }
-    }
-
-    .col-flex {
-      .flex-content {
-        &.s#{$i} { width: nth($col-width-list, $i); }
-      }
     }
   }
 }
@@ -74,12 +40,6 @@
     .col { 
       &.m#{$i} { width: nth($col-width-list, $i); }
     }
-
-    .col-flex {
-      .flex-content {
-        &.m#{$i} { width: nth($col-width-list, $i); }
-      }
-    }
   }
 }
 
@@ -88,12 +48,6 @@
     $i: index($col-width-list, $column-width);
     .col { 
       &.l#{$i} { width: nth($col-width-list, $i); }
-    }
-
-    .col-flex {
-      .flex-content {
-        &.l#{$i} { width: nth($col-width-list, $i); }
-      }
     }
   }
 }

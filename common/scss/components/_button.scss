@@ -89,25 +89,23 @@
     & {
       display: inline-block;
       padding: 0 30px;
-      color: $button-text-color;
+      color: $default-color;
       font-size: 1.5rem;
       line-height: 3.5rem;
       text-decoration: none;
       text-transform: uppercase;
       border-radius: 4px;
-      background-color: $button-color;
+      background-color: $white;
       white-space: nowrap;
     }
     &:hover {
-      color: $button-hover-text-color !important;
-      background-color: $button-hover-color !important;
+      box-shadow: $z-depth;
     }
 
     &:focus,
     &:active,
     &:visited {
-      color: $button-text-color;
-      background-color: $button-color;
+      color: $default-color;
     }
   }
 }
@@ -119,18 +117,8 @@
 .btn-sample-mobile { @include btn; }
 
 .btn.alt1 {
-  color: #FFF;
-  background-color: $button-color-alt-1;
-}
-
-.btn.alt2 {
-  color: #FFF;
-  background-color: $button-color-alt-2;
-}
-
-.btn.alt3 {
-  color: #FFF;
-  background-color: $button-color-alt-3;
+  color: $white;
+  background-color: $red;
 }
 
 @media only screen and (min-width: $media-small + 1) {
