@@ -11,12 +11,12 @@ Github     :   https://github.com/jackryanoracoy
 Facebook   :   https://facebook.com/JackRyanOracoy  
 Twitter    :   https://twitter.com/JackRyanOracoy  
 Behance    :   https://www.behance.net/jackryanor7dac  
-LinkedIn   :   https://www.linkedin.com/in/jackryanoracoy
+LinkedIn   :   https://www.linkedin.com/in/jackryanoracoy  
   
   
 ABOUT  
 ------------------------------------------------------------  
-Modern Template - Sassify is built using the most mature, stable, and powerful professional grade CSS extension language in the world (SASS).  
+A Progressive Web App (PWA) Template and is built using the most mature, stable, and powerful professional grade CSS extension language in the world (SASS).  
   
   
 CONTENT  

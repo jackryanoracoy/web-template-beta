@@ -1,0 +1,106 @@
+// Helper - Flex Container
+
+/*--------------------------------------------------
+  flex-container
+--------------------------------------------------*/
+
+@mixin flex-container($extend: true) {
+  @if $extend {
+    @extend %flex-container;
+  } @else {
+    & {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 100%;
+    }
+  }
+}
+
+%flex-container { @include flex-container($extend: false); }
+  
+.flex-container {
+  @include flex-container;
+
+
+  &.nowrap { flex-wrap: nowrap; }
+
+  &.row-reverse { flex-direction: row-reverse; }
+  &.column-reverse { flex-direction: column-reverse; }
+
+  &.align-start { align-items: flex-start; }
+  &.align-center { align-items: center; }
+  &.align-end { align-items: flex-end; }
+  &.justify-start { justify-content: flex-start; }
+  &.justify-center { justify-content: center; }
+  &.justify-end { justify-content: flex-end; }
+  &.justify-spacearound{ justify-content: space-around; }
+  &.justify-spacebetween { justify-content: space-between; }
+  &.justify-spaceevenly { justify-content: space-evenly; }
+
+  &.pad10 { padding: 10px; }
+  &.pad20 { padding: 20px; }
+  &.pad30 { padding: 30px; }
+  &.pad40 { padding: 40px; }
+  &.pad50 { padding: 50px; }
+
+  &.vpad10 { padding: 10px 0; }
+  &.vpad20 { padding: 20px 0; }
+  &.vpad30 { padding: 30px 0; }
+  &.vpad40 { padding: 40px 0; }
+  &.vpad50 { padding: 50px 0; }
+
+  &.hpad10 { padding: 0 10px; }
+  &.hpad20 { padding: 0 20px; }
+  &.hpad30 { padding: 0 30px; }
+  &.hpad40 { padding: 0 40px; }
+  &.hpad50 { padding: 0 50px; }
+}
+
+/*--------------------------------------------------
+  flex-container - Column
+--------------------------------------------------*/
+
+@each $column-width in $col-width-list {
+  $i: index($col-width-list, $column-width);
+
+  .flex-container { 
+    .flex-content {
+      &.xs#{$i} { width: nth($col-width-list, $i); }
+    }
+  }
+}
+
+@media (min-width: $media-small + 1) {
+  @each $column-width in $col-width-list {
+    $i: index($col-width-list, $column-width);
+    .flex-container {
+      .flex-content {
+        &.s#{$i} { width: nth($col-width-list, $i); }
+      }
+    }
+  }
+}
+
+@media (min-width: $media-medium + 1) {
+  @each $column-width in $col-width-list {
+    $i: index($col-width-list, $column-width);
+
+    .flex-container {
+      .flex-content {
+        &.m#{$i} { width: nth($col-width-list, $i); }
+      }
+    }
+  }
+}
+
+@media (min-width: $media-large + 1) {
+  @each $column-width in $col-width-list {
+    $i: index($col-width-list, $column-width);
+
+    .flex-container {
+      .flex-content {
+        &.l#{$i} { width: nth($col-width-list, $i); }
+      }
+    }
+  }
+}
