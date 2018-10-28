@@ -4,56 +4,74 @@
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 100;
-  src: local("Roboto Thin"), local("Roboto-Thin"), url(../fonts/Roboto/Roboto-Thin.ttf);
-}
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 300;
-  src: local("Roboto Light"), local("Roboto-Light"), url(../fonts/Roboto/Roboto-Light.ttf);
+  src: local("Roboto Light"), local("Roboto-Light"), url(../fonts/Roboto/Roboto-Light.woff2) format("woff2"), url(../fonts/Roboto/Roboto-Light.woff) format("woff"), url(../fonts/Roboto/Roboto-Light.ttf) format("truetype");
 }
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local("Roboto"), local("Roboto-Regular"), url(../fonts/Roboto/Roboto-Regular.ttf);
+  src: local("Roboto"), local("Roboto-Regular"), url(../fonts/Roboto/Roboto.woff2) format("woff2"), url(../fonts/Roboto/Roboto.woff) format("woff"), url(../fonts/Roboto/Roboto.ttf) format("truetype");
 }
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
-  src: local("Roboto Medium"), local("Roboto-Medium"), url(../fonts/Roboto/Roboto-Medium.ttf);
+  src: local("Roboto Medium"), local("Roboto-Medium"), url(../fonts/Roboto/Roboto-Medium.woff2) format("woff2"), url(../fonts/Roboto/Roboto-Medium.woff) format("woff"), url(../fonts/Roboto/Roboto-Medium.ttf) format("truetype");
 }
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  src: local("Roboto Bold"), local("Roboto-Bold"), url(../fonts/Roboto/Roboto-Bold.ttf);
-}
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 900;
-  src: local("Roboto Black"), local("Roboto-Black"), url(../fonts/Roboto/Roboto-Black.ttf);
+  src: local("Roboto Bold"), local("Roboto-Bold"), url(../fonts/Roboto/Roboto-Bold.woff2) format("woff2"), url(../fonts/Roboto/Roboto-Bold.woff) format("woff"), url(../fonts/Roboto/Roboto-Bold.ttf) format("truetype");
 }
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 300;
-  src: local("Roboto Condensed Light"), local("RobotoCondensed-Light"), url(../fonts/Roboto_Condensed/RobotoCondensed-Light.ttf);
+  src: local("Roboto Condensed Light"), local("RobotoCondensed-Light"), url(../fonts/Roboto/Roboto-Condensed-Light.woff2) format("woff2"), url(../fonts/Roboto/Roboto-Condensed-Light.woff) format("woff"), url(../fonts/Roboto/Roboto-Condensed-Light.ttf) format("truetype");
 }
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 400;
-  src: local("Roboto Condensed"), local("RobotoCondensed-Regular"), url(../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+  src: local("Roboto Condensed"), local("RobotoCondensed-Regular"), url(../fonts/Roboto/Roboto-Condensed.woff2) format("woff2"), url(../fonts/Roboto/Roboto-Condensed.woff) format("woff"), url(../fonts/Roboto/Roboto-Condensed.ttf) format("truetype");
 }
 @font-face {
   font-family: 'Roboto Condensed';
   font-style: normal;
   font-weight: 700;
-  src: local("Roboto Condensed Bold"), local("RobotoCondensed-Bold"), url(../fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf);
+  src: local("Roboto Condensed Bold"), local("RobotoCondensed-Bold"), url(../fonts/Roboto/Roboto-Condensed-Bold.woff2) format("woff2"), url(../fonts/Roboto/Roboto-Condensed-Bold.woff) format("woff"), url(../fonts/Roboto/Roboto-Condensed-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans"), local("NotoSans"), url(../fonts/Noto_Sans/Noto-Sans.woff2) format("woff2"), url(../fonts/Noto_Sans/Noto-Sans.woff) format("woff"), url(../fonts/Noto_Sans/Noto-Sans.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans Bold"), local("NotoSans-Bold"), url(../fonts/Noto_Sans/Noto-Sans-Bold.woff2) format("woff2"), url(../fonts/Noto_Sans/Noto-Sans-Bold.woff) format("woff"), url(../fonts/Noto_Sans/Noto-Sans-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Noto Sans Japanese Regular"), local("NotoSansJapanese-Regular"), url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Light.woff2) format("woff2"), url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Light.woff) format("woff"), url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans Japanese Regular"), local("NotoSansJapanese-Regular"), url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Regular.woff2) format("woff2"), url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Regular.woff) format("woff"), url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Noto Sans Japanese Bold"), local("NotoSansJapanese-Bold"), url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Bold.woff2) format("woff2"), url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Bold.woff) format("woff"), url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Bold.ttf) format("truetype");
 }
 /*--------------------------------------------------
   HTML
@@ -61,7 +79,7 @@
 html {
   min-width: 320px;
   color: rgba(0, 0, 0, 0.85);
-  font-family: "Roboto", sans-serif;
+  font-family: "Noto Sans", "sans-serif";
   font-size: 62.5%;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -103,7 +121,7 @@ body {
   min-width: inherit;
   color: rgba(0, 0, 0, 0.85);
   font-size: 1.5rem;
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
 }
 body ::-webkit-scrollbar {
   width: 2px;
@@ -318,7 +336,7 @@ textarea {
 }
 
 /*--------------------------------------------------
-  col, col-flex
+  col
 --------------------------------------------------*/
 .col {
   float: left;
@@ -526,9 +544,17 @@ textarea {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  max-width: 100%;
+}
+.flex-container > div {
+  width: 100%;
 }
 
+.flex-container.gap {
+  margin: -10px;
+}
+.flex-container.gap > div {
+  padding: 10px;
+}
 .flex-container.nowrap {
   flex-wrap: nowrap;
 }
@@ -611,6 +637,85 @@ textarea {
   padding: 0 50px;
 }
 
+@media only screen and (min-width: 993px) {
+  .flex-container.gap {
+    margin: -20px;
+  }
+  .flex-container.gap > div {
+    padding: 20px;
+  }
+  .flex-container > div {
+    padding: 0;
+  }
+  .flex-container.row-reverse-desktop {
+    flex-direction: row-reverse;
+  }
+  .flex-container.column-reverse-desktop {
+    flex-direction: column-reverse;
+  }
+  .flex-container.align-start-desktop {
+    align-items: flex-start;
+  }
+  .flex-container.align-center-desktop {
+    align-items: center;
+  }
+  .flex-container.align-end-desktop {
+    align-items: flex-end;
+  }
+  .flex-container.justify-start-desktop {
+    justify-content: flex-start;
+  }
+  .flex-container.justify-center-desktop {
+    justify-content: center;
+  }
+  .flex-container.justify-end-desktop {
+    justify-content: flex-end;
+  }
+  .flex-container.justify-spacearound-desktop {
+    justify-content: space-around;
+  }
+  .flex-container.justify-spacebetween-desktop {
+    justify-content: space-between;
+  }
+  .flex-container.justify-spaceevenly-desktop {
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .flex-container.row-reverse-mobile {
+    flex-direction: row-reverse;
+  }
+  .flex-container.column-reverse-mobile {
+    flex-direction: column-reverse;
+  }
+  .flex-container.align-start-mobile {
+    align-items: flex-start;
+  }
+  .flex-container.align-center-mobile {
+    align-items: center;
+  }
+  .flex-container.align-end-mobile {
+    align-items: flex-end;
+  }
+  .flex-container.justify-start-mobile {
+    justify-content: flex-start;
+  }
+  .flex-container.justify-center-mobile {
+    justify-content: center;
+  }
+  .flex-container.justify-end-mobile {
+    justify-content: flex-end;
+  }
+  .flex-container.justify-spacearound-mobile {
+    justify-content: space-around;
+  }
+  .flex-container.justify-spacebetween-mobile {
+    justify-content: space-between;
+  }
+  .flex-container.justify-spaceevenly-mobile {
+    justify-content: space-evenly;
+  }
+}
 /*--------------------------------------------------
   flex-container - Column
 --------------------------------------------------*/
@@ -812,243 +917,401 @@ textarea {
 /*--------------------------------------------------
   Color
 --------------------------------------------------*/
-.color {
-  color: rgba(0, 0, 0, 0.85);
-}
-.color.primary {
+.color-primary {
   color: #212121;
 }
-.color.accent {
+
+.color-accent {
   color: #BDBDBD;
 }
-.color.grey-50 {
+
+.color-grey-50 {
   color: #FAFAFA;
 }
-.color.grey-100 {
+
+.color-grey-100 {
   color: #F5F5F5;
 }
-.color.grey-200 {
+
+.color-grey-200 {
   color: #EEEEEE;
 }
-.color.grey-300 {
+
+.color-grey-300 {
   color: #E0E0E0;
 }
-.color.grey-400 {
+
+.color-grey-400 {
   color: #BDBDBD;
 }
-.color.grey-500 {
+
+.color-grey-500 {
   color: #999999;
 }
-.color.grey-600 {
+
+.color-grey-600 {
   color: #757575;
 }
-.color.grey-700 {
+
+.color-grey-700 {
   color: #616161;
 }
-.color.grey-800 {
+
+.color-grey-800 {
   color: #424242;
 }
-.color.grey-900 {
+
+.color-grey-900 {
   color: #212121;
 }
-.color.white {
+
+.color-white {
   color: #FFF;
 }
-.color.black {
+
+.color-black {
   color: #000;
 }
-.color.red {
+
+.color-red {
   color: #F44336;
 }
-.color.pink {
+
+.color-pink {
   color: #E91E63;
 }
-.color.purple {
+
+.color-purple {
   color: #9C27B0;
 }
-.color.deep-purple {
+
+.color-deep-purple {
   color: #673AB7;
 }
-.color.indigo {
+
+.color-indigo {
   color: #3F51B5;
 }
-.color.blue {
+
+.color-blue {
   color: #2196F3;
 }
-.color.light-blue {
+
+.color-light-blue {
   color: #03A9F4;
 }
-.color.cyan {
+
+.color-cyan {
   color: #00BCD4;
 }
-.color.teal {
+
+.color-teal {
   color: #009688;
 }
-.color.green {
+
+.color-green {
   color: #4CAF50;
 }
-.color.light-green {
+
+.color-light-green {
   color: #8BC34A;
 }
-.color.lime {
+
+.color-lime {
   color: #CDDC39;
 }
-.color.yellow {
+
+.color-yellow {
   color: #FFEB3B;
 }
-.color.amber {
+
+.color-amber {
   color: #FFC107;
 }
-.color.orange {
+
+.color-orange {
   color: #FF9800;
 }
-.color.deep-orange {
+
+.color-deep-orange {
   color: #FF5722;
 }
-.color.brown {
+
+.color-brown {
   color: #795548;
 }
-.color.grey {
+
+.color-grey {
   color: #9E9E9E;
 }
-.color.blue-grey {
+
+.color-blue-grey {
   color: #607D8B;
 }
 
 /*--------------------------------------------------
   Background
 --------------------------------------------------*/
-.background {
-  background-color: rgba(0, 0, 0, 0.85);
-}
-.background.primary {
+.background-primary {
   background-color: #212121;
 }
-.background.accent {
+
+.background-accent {
   background-color: #BDBDBD;
 }
-.background.grey-50 {
+
+.background-grey-50 {
   background-color: #FAFAFA;
 }
-.background.grey-100 {
+
+.background-grey-100 {
   background-color: #F5F5F5;
 }
-.background.grey-200 {
+
+.background-grey-200 {
   background-color: #EEEEEE;
 }
-.background.grey-300 {
+
+.background-grey-300 {
   background-color: #E0E0E0;
 }
-.background.grey-400 {
+
+.background-grey-400 {
   background-color: #BDBDBD;
 }
-.background.grey-500 {
+
+.background-grey-500 {
   background-color: #999999;
 }
-.background.grey-600 {
+
+.background-grey-600 {
   background-color: #757575;
 }
-.background.grey-700 {
+
+.background-grey-700 {
   background-color: #616161;
 }
-.background.grey-800 {
+
+.background-grey-800 {
   background-color: #424242;
 }
-.background.grey-900 {
+
+.background-grey-900 {
   background-color: #212121;
 }
-.background.white {
+
+.background-white {
   background-color: #FFF;
 }
-.background.black {
+
+.background-black {
   background-color: #000;
 }
-.background.red {
+
+.background-red {
   background-color: #F44336;
 }
-.background.pink {
+
+.background-pink {
   background-color: #E91E63;
 }
-.background.purple {
+
+.background-purple {
   background-color: #9C27B0;
 }
-.background.deep-purple {
+
+.background-deep-purple {
   background-color: #673AB7;
 }
-.background.indigo {
+
+.background-indigo {
   background-color: #3F51B5;
 }
-.background.blue {
+
+.background-blue {
   background-color: #2196F3;
 }
-.background.light-blue {
+
+.background-light-blue {
   background-color: #03A9F4;
 }
-.background.cyan {
+
+.background-cyan {
   background-color: #00BCD4;
 }
-.background.teal {
+
+.background-teal {
   background-color: #009688;
 }
-.background.green {
+
+.background-green {
   background-color: #4CAF50;
 }
-.background.light-green {
+
+.background-light-green {
   background-color: #8BC34A;
 }
-.background.lime {
+
+.background-lime {
   background-color: #CDDC39;
 }
-.background.yellow {
+
+.background-yellow {
   background-color: #FFEB3B;
 }
-.background.amber {
+
+.background-amber {
   background-color: #FFC107;
 }
-.background.orange {
+
+.background-orange {
   background-color: #FF9800;
 }
-.background.deep-orange {
+
+.background-deep-orange {
   background-color: #FF5722;
 }
-.background.brown {
+
+.background-brown {
   background-color: #795548;
 }
-.background.grey {
+
+.background-grey {
   background-color: #9E9E9E;
 }
-.background.blue-grey {
+
+.background-blue-grey {
   background-color: #607D8B;
 }
 
 /*--------------------------------------------------
   Object-fit
 --------------------------------------------------*/
-.object-fit-fill {
+.object-fit {
+  object-fit: inherit;
+  width: 100%;
+  height: 100%;
+}
+.fill.object-fit {
   object-fit: fill;
   font-family: "object-fit: fill;";
 }
-
-.object-fit-contain {
+.contain.object-fit {
   object-fit: contain;
   font-family: "object-fit: contain;";
 }
-
-.object-fit-cover {
+.cover.object-fit {
   object-fit: cover;
   font-family: "object-fit: cover;";
 }
-
-.object-fit-none {
+.none.object-fit {
   object-fit: none;
   font-family: "object-fit: none;";
 }
-
-.object-fit-scale_down {
+.scale_down.object-fit {
   object-fit: scale-down;
   font-family: "object-fit: scale-down;";
 }
+.bottom.object-fit {
+  object-position: bottom;
+}
+.center.object-fit {
+  object-position: center;
+}
+.left.object-fit {
+  object-position: left;
+}
+.right.object-fit {
+  object-position: right;
+}
+.top.object-fit {
+  object-position: top;
+}
 
+@media only screen and (min-width: 993px) {
+  .object-fit-desktop {
+    object-fit: inherit;
+    width: 100%;
+    height: 100%;
+  }
+  .object-fit-desktop.fill {
+    object-fit: fill;
+    font-family: "object-fit: fill;";
+  }
+  .object-fit-desktop.contain {
+    object-fit: contain;
+    font-family: "object-fit: contain;";
+  }
+  .object-fit-desktop.cover {
+    object-fit: cover;
+    font-family: "object-fit: cover;";
+  }
+  .object-fit-desktop.none {
+    object-fit: none;
+    font-family: "object-fit: none;";
+  }
+  .object-fit-desktop.scale_down {
+    object-fit: scale-down;
+    font-family: "object-fit: scale-down;";
+  }
+  .object-fit-desktop.bottom {
+    object-position: bottom;
+  }
+  .object-fit-desktop.center {
+    object-position: center;
+  }
+  .object-fit-desktop.left {
+    object-position: left;
+  }
+  .object-fit-desktop.right {
+    object-position: right;
+  }
+  .object-fit-desktop.top {
+    object-position: top;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .object-fit-mobile {
+    object-fit: inherit;
+    width: 100%;
+    height: 100%;
+  }
+  .object-fit-mobile.fill {
+    object-fit: fill;
+    font-family: "object-fit: fill;";
+  }
+  .object-fit-mobile.contain {
+    object-fit: contain;
+    font-family: "object-fit: contain;";
+  }
+  .object-fit-mobile.cover {
+    object-fit: cover;
+    font-family: "object-fit: cover;";
+  }
+  .object-fit-mobile.none {
+    object-fit: none;
+    font-family: "object-fit: none;";
+  }
+  .object-fit-mobile.scale_down {
+    object-fit: scale-down;
+    font-family: "object-fit: scale-down;";
+  }
+  .object-fit-mobile.bottom {
+    object-position: bottom;
+  }
+  .object-fit-mobile.center {
+    object-position: center;
+  }
+  .object-fit-mobile.left {
+    object-position: left;
+  }
+  .object-fit-mobile.right {
+    object-position: right;
+  }
+  .object-fit-mobile.top {
+    object-position: top;
+  }
+}
 /*--------------------------------------------------
   Display according to viewport
 --------------------------------------------------*/
@@ -1570,7 +1833,7 @@ div.card-cluster {
 }
 @media print {
   body {
-    font-family: "Roboto", sans-serif;
+    font-family: inherit;
     width: 100%;
     width: 640px\9;
   }

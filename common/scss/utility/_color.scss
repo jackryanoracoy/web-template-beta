@@ -4,41 +4,38 @@
   Color
 --------------------------------------------------*/
 
-.color { 
-  color: $default-color;
+.color-primary { color: $primary-color; }
+.color-accent { color: $accent-color; }
 
-  &.primary { color: $primary-color; }
-  &.accent { color: $accent-color; }
-  &.grey-50 { color: $grey-50; }
-  &.grey-100 { color: $grey-100; }
-  &.grey-200 { color: $grey-200; }
-  &.grey-300 { color: $grey-300; }
-  &.grey-400 { color: $grey-400; }
-  &.grey-500 { color: $grey-500; }
-  &.grey-600 { color: $grey-600; }
-  &.grey-700 { color: $grey-700; }
-  &.grey-800 { color: $grey-800; }
-  &.grey-900 { color: $grey-900; }
+.color-grey-50 { color: $grey-50; }
+.color-grey-100 { color: $grey-100; }
+.color-grey-200 { color: $grey-200; }
+.color-grey-300 { color: $grey-300; }
+.color-grey-400 { color: $grey-400; }
+.color-grey-500 { color: $grey-500; }
+.color-grey-600 { color: $grey-600; }
+.color-grey-700 { color: $grey-700; }
+.color-grey-800 { color: $grey-800; }
+.color-grey-900 { color: $grey-900; }
 
-  &.white { color: $white; }
-  &.black { color: $black; }
-  &.red { color: $red; }
-  &.pink { color: $pink; }
-  &.purple { color: $purple; }
-  &.deep-purple { color: $deep-purple; }
-  &.indigo { color: $indigo; }
-  &.blue { color: $blue; }
-  &.light-blue { color: $light-blue; }
-  &.cyan { color: $cyan; }
-  &.teal { color: $teal; }
-  &.green { color: $green; }
-  &.light-green { color: $light-green; }
-  &.lime { color: $lime; }
-  &.yellow { color: $yellow; }
-  &.amber { color: $amber; }
-  &.orange { color: $orange; }
-  &.deep-orange { color: $deep-orange; }
-  &.brown { color: $brown; }
-  &.grey { color: $grey; }
-  &.blue-grey { color: $blue-grey; }
-}
+.color-white { color: $white; }
+.color-black { color: $black; }
+.color-red { color: $red; }
+.color-pink { color: $pink; }
+.color-purple { color: $purple; }
+.color-deep-purple { color: $deep-purple; }
+.color-indigo { color: $indigo; }
+.color-blue { color: $blue; }
+.color-light-blue { color: $light-blue; }
+.color-cyan { color: $cyan; }
+.color-teal { color: $teal; }
+.color-green { color: $green; }
+.color-light-green { color: $light-green; }
+.color-lime { color: $lime; }
+.color-yellow { color: $yellow; }
+.color-amber { color: $amber; }
+.color-orange { color: $orange; }
+.color-deep-orange { color: $deep-orange; }
+.color-brown { color: $brown; }
+.color-grey { color: $grey; }
+.color-blue-grey { color: $blue-grey; }

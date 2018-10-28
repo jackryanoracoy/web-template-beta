@@ -2,13 +2,23 @@
  font-face
 --------------------------------------------------------------*/
 
-@mixin roboto-font-style {
+@mixin roboto {
   font-family: 'Roboto';
   font-style: normal;
 }
 
-@mixin roboto_condense-font-style {
+@mixin roboto_condense {
   font-family: 'Roboto Condensed';
+  font-style: normal;
+}
+
+@mixin noto_sans {
+  font-family: 'Noto Sans';
+  font-style: normal;
+}
+
+@mixin noto_sans_jp {
+  font-family: 'Noto Sans JP';
   font-style: normal;
 }
 
@@ -16,56 +26,130 @@
   font-weight: $font-weight;
 }
 
-@font-face {
-  @include roboto-font-style;
-  @include font-weight(100);
-  src: local('Roboto Thin'), local('Roboto-Thin'), url(../fonts/Roboto/Roboto-Thin.ttf);
-}
+// Roboto
 
 @font-face {
-  @include roboto-font-style;
+  @include roboto;
   @include font-weight(300);
-  src: local('Roboto Light'), local('Roboto-Light'), url(../fonts/Roboto/Roboto-Light.ttf);
+  src: local('Roboto Light'), 
+       local('Roboto-Light'), 
+       url(../fonts/Roboto/Roboto-Light.woff2) format('woff2'),
+       url(../fonts/Roboto/Roboto-Light.woff) format('woff'),
+       url(../fonts/Roboto/Roboto-Light.ttf) format('truetype');
 }
 
 @font-face {
-  @include roboto-font-style;
+  @include roboto;
   @include font-weight(400);
-  src: local('Roboto'), local('Roboto-Regular'), url(../fonts/Roboto/Roboto-Regular.ttf);
+  src: local('Roboto'), 
+       local('Roboto-Regular'), 
+       url(../fonts/Roboto/Roboto.woff2) format('woff2'),
+       url(../fonts/Roboto/Roboto.woff) format('woff'),
+       url(../fonts/Roboto/Roboto.ttf) format('truetype');
 }
 
 @font-face {
-  @include roboto-font-style;
+  @include roboto;
   @include font-weight(500);
-  src: local('Roboto Medium'), local('Roboto-Medium'), url(../fonts/Roboto/Roboto-Medium.ttf);
+  src: local('Roboto Medium'), 
+       local('Roboto-Medium'), 
+       url(../fonts/Roboto/Roboto-Medium.woff2) format('woff2'),
+       url(../fonts/Roboto/Roboto-Medium.woff) format('woff'),
+       url(../fonts/Roboto/Roboto-Medium.ttf) format('truetype');
 }
 
 @font-face {
-  @include roboto-font-style;
+  @include roboto;
   @include font-weight(700);
-  src: local('Roboto Bold'), local('Roboto-Bold'), url(../fonts/Roboto/Roboto-Bold.ttf);
+  src: local('Roboto Bold'), 
+       local('Roboto-Bold'), 
+       url(../fonts/Roboto/Roboto-Bold.woff2) format('woff2'),
+       url(../fonts/Roboto/Roboto-Bold.woff) format('woff'),
+       url(../fonts/Roboto/Roboto-Bold.ttf) format('truetype');
 }
 
-@font-face {
-  @include roboto-font-style;
-  @include font-weight(900);
-  src: local('Roboto Black'), local('Roboto-Black'), url(../fonts/Roboto/Roboto-Black.ttf);
-}
+// Roboto Condensed
 
 @font-face {
-  @include roboto_condense-font-style;
+  @include roboto_condense;
   @include font-weight(300);
-  src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url(../fonts/Roboto_Condensed/RobotoCondensed-Light.ttf);
+  src: local('Roboto Condensed Light'), 
+       local('RobotoCondensed-Light'), 
+       url(../fonts/Roboto/Roboto-Condensed-Light.woff2) format('woff2'),
+       url(../fonts/Roboto/Roboto-Condensed-Light.woff) format('woff'),
+       url(../fonts/Roboto/Roboto-Condensed-Light.ttf) format('truetype');
 }
 
 @font-face {
-  @include roboto_condense-font-style;
+  @include roboto_condense;
   @include font-weight(400);
-  src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url(../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf);
+  src: local('Roboto Condensed'), 
+       local('RobotoCondensed-Regular'), 
+       url(../fonts/Roboto/Roboto-Condensed.woff2) format('woff2'),
+       url(../fonts/Roboto/Roboto-Condensed.woff) format('woff'),
+       url(../fonts/Roboto/Roboto-Condensed.ttf) format('truetype');
 }
 
 @font-face {
-  @include roboto_condense-font-style;
+  @include roboto_condense;
   @include font-weight(700);
-  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold'), url(../fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf);
+  src: local('Roboto Condensed Bold'), 
+       local('RobotoCondensed-Bold'), 
+       url(../fonts/Roboto/Roboto-Condensed-Bold.woff2) format('woff2'),
+       url(../fonts/Roboto/Roboto-Condensed-Bold.woff) format('woff'),
+       url(../fonts/Roboto/Roboto-Condensed-Bold.ttf) format('truetype');
+}
+
+// Noto Sans
+
+@font-face {
+  @include noto_sans;
+  @include font-weight(400);
+  src: local('Noto Sans'), 
+       local('NotoSans'), 
+       url(../fonts/Noto_Sans/Noto-Sans.woff2) format('woff2'),
+       url(../fonts/Noto_Sans/Noto-Sans.woff) format('woff'),
+       url(../fonts/Noto_Sans/Noto-Sans.ttf) format('truetype');
+}
+
+@font-face {
+  @include noto_sans;
+  @include font-weight(700);
+  src: local('Noto Sans Bold'),
+       local('NotoSans-Bold'), 
+       url(../fonts/Noto_Sans/Noto-Sans-Bold.woff2) format('woff2'),
+       url(../fonts/Noto_Sans/Noto-Sans-Bold.woff) format('woff'),
+       url(../fonts/Noto_Sans/Noto-Sans-Bold.ttf) format('truetype');
+}
+
+// Noto Sans JP
+
+@font-face {
+  @include noto_sans_jp;
+  @include font-weight(300);
+  src: local('Noto Sans Japanese Regular'), 
+       local('NotoSansJapanese-Regular'), 
+       url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Light.woff2) format('woff2'),
+       url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Light.woff) format('woff'),
+       url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Light.ttf) format('truetype');
+}
+
+@font-face {
+  @include noto_sans_jp;
+  @include font-weight(400);
+  src: local('Noto Sans Japanese Regular'), 
+       local('NotoSansJapanese-Regular'), 
+       url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Regular.woff2) format('woff2'),
+       url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Regular.woff) format('woff'),
+       url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  @include noto_sans_jp;
+  @include font-weight(700);
+  src: local('Noto Sans Japanese Bold'), 
+       local('NotoSansJapanese-Bold'), 
+       url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Bold.woff2) format('woff2'),
+       url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Bold.woff) format('woff'),
+       url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Bold.ttf) format('truetype');
 }

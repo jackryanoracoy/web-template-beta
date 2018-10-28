@@ -5,7 +5,7 @@
 html {
   min-width: 320px;
   color: $default-color;
-  font-family: $font-family;
+  font-family: $font-family-noto;
   font-size: 62.5%;
   line-height: $normal-height;
   @include font-smoothing;
@@ -46,7 +46,7 @@ body {
   min-width: inherit;
   color: $default-color;
   font-size: $default-size;
-  font-family: $font-family;
+  font-family: inherit;
 
   & ::-webkit-scrollbar {
     width: 2px;
