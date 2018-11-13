@@ -2,8 +2,8 @@
 $font-family-roboto: 'Roboto', sans-serif;
 $font-family-roboto-condensed: 'Roboto Condensed', sans-serif;
 
-$font-family-noto: 'Noto Sans', 'sans-serif';
-$font-family-noto-jp: 'Noto Sans JP', 'sans-serif';
+$font-family-noto: 'Noto Sans', sans-serif;
+$font-family-noto-jp: 'Noto Sans JP', sans-serif;
 
 // Breakpoints.
 $media-xsmall: 400px;
@@ -43,13 +43,10 @@ $col-width-list: 8.33333% 16.66666% 24.99999% 33.33333% 41.66666% 49.99999% 58.3
 
 // color
 $default-color: rgba(0, 0, 0, 0.85);
-$primary-color: #212121;
-$accent-color: #BDBDBD;
-$hover-color: #EEE;
-$active-color: #999;
-
-$button-color: #FAFAFA;
-$button-text-color: #555;
+$primary-color: #009688;
+$accent-color: #FFC107;
+$hover-color: #FF5722;
+$active-color: #FF9800;
 
 $grey-50: #FAFAFA;
 $grey-100: #F5F5F5;
@@ -99,6 +96,13 @@ $large-height: 2;
 // box-shadow
 $z-depth: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
 $z-depth-1: 0 2px 4px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.15), 0 3px 1px -2px rgba(0,0,0,0.2);
+
+// button
+$menu-button-color: #FFF;
+$button-color: #FAFAFA;
+$button-text-color: #555;
+$button-radius: 25px;
+$button-gap: 5px;
 
 // card
 $card-height: auto;

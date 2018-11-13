@@ -31,8 +31,8 @@
 @font-face {
   @include roboto;
   @include font-weight(300);
-  src: local('Roboto Light'), 
-       local('Roboto-Light'), 
+  src: local('Roboto Light'),
+       local('Roboto-Light'),
        url(../fonts/Roboto/Roboto-Light.woff2) format('woff2'),
        url(../fonts/Roboto/Roboto-Light.woff) format('woff'),
        url(../fonts/Roboto/Roboto-Light.ttf) format('truetype');
@@ -41,8 +41,8 @@
 @font-face {
   @include roboto;
   @include font-weight(400);
-  src: local('Roboto'), 
-       local('Roboto-Regular'), 
+  src: local('Roboto'),
+       local('Roboto-Regular'),
        url(../fonts/Roboto/Roboto.woff2) format('woff2'),
        url(../fonts/Roboto/Roboto.woff) format('woff'),
        url(../fonts/Roboto/Roboto.ttf) format('truetype');
@@ -51,8 +51,8 @@
 @font-face {
   @include roboto;
   @include font-weight(500);
-  src: local('Roboto Medium'), 
-       local('Roboto-Medium'), 
+  src: local('Roboto Medium'),
+       local('Roboto-Medium'),
        url(../fonts/Roboto/Roboto-Medium.woff2) format('woff2'),
        url(../fonts/Roboto/Roboto-Medium.woff) format('woff'),
        url(../fonts/Roboto/Roboto-Medium.ttf) format('truetype');
@@ -61,8 +61,8 @@
 @font-face {
   @include roboto;
   @include font-weight(700);
-  src: local('Roboto Bold'), 
-       local('Roboto-Bold'), 
+  src: local('Roboto Bold'),
+       local('Roboto-Bold'),
        url(../fonts/Roboto/Roboto-Bold.woff2) format('woff2'),
        url(../fonts/Roboto/Roboto-Bold.woff) format('woff'),
        url(../fonts/Roboto/Roboto-Bold.ttf) format('truetype');
@@ -83,8 +83,8 @@
 @font-face {
   @include roboto_condense;
   @include font-weight(400);
-  src: local('Roboto Condensed'), 
-       local('RobotoCondensed-Regular'), 
+  src: local('Roboto Condensed'),
+       local('RobotoCondensed-Regular'),
        url(../fonts/Roboto/Roboto-Condensed.woff2) format('woff2'),
        url(../fonts/Roboto/Roboto-Condensed.woff) format('woff'),
        url(../fonts/Roboto/Roboto-Condensed.ttf) format('truetype');
@@ -93,8 +93,8 @@
 @font-face {
   @include roboto_condense;
   @include font-weight(700);
-  src: local('Roboto Condensed Bold'), 
-       local('RobotoCondensed-Bold'), 
+  src: local('Roboto Condensed Bold'),
+       local('RobotoCondensed-Bold'),
        url(../fonts/Roboto/Roboto-Condensed-Bold.woff2) format('woff2'),
        url(../fonts/Roboto/Roboto-Condensed-Bold.woff) format('woff'),
        url(../fonts/Roboto/Roboto-Condensed-Bold.ttf) format('truetype');
@@ -105,8 +105,8 @@
 @font-face {
   @include noto_sans;
   @include font-weight(400);
-  src: local('Noto Sans'), 
-       local('NotoSans'), 
+  src: local('Noto Sans'),
+       local('NotoSans'),
        url(../fonts/Noto_Sans/Noto-Sans.woff2) format('woff2'),
        url(../fonts/Noto_Sans/Noto-Sans.woff) format('woff'),
        url(../fonts/Noto_Sans/Noto-Sans.ttf) format('truetype');

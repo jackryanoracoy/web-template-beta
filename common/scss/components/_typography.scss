@@ -9,27 +9,37 @@
     & {
       color: $primary-color;
       font-size: $large-size;
-      padding: 0 0 10px;
-      margin: 0 0 40px;
-      border-bottom: 1px solid $primary-color;
+      font-feature-settings: "palt";
     }
   }
 }
 
 %title { @include title($extend: false); }
 
-.heading-title { @include title; }
-
-.heading-title.sub {
+.section-heading {
   @include title;
-  font-size: $default-size;
-  border-color: #CCC;
-  margin: 0 0 20px;
+  padding: 0 0 10px;
+  margin: 0 0 40px;
+  border-bottom: 1px solid $primary-color;
 }
 
-.heading-title.sub2 {
+.article-heading {
   @include title;
-  font-size: $medium-size;
-  border-color: #EEE;
+  padding: 0 0 10px;
   margin: 0 0 20px;
+  color: $accent-color;
+  font-size: $default-size;
+  border-bottom: 1px solid $accent-color;
+}
+
+.atf-heading {
+  @include title;
+  color: $primary-color;
+  font-size: $extra-large-size;
+}
+
+.title {
+  @include title;
+  margin: 0 0 20px;
+  font-size: $medium-size;
 }

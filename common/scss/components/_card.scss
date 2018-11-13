@@ -13,16 +13,15 @@
       border-radius: $card-radius;
       box-shadow: $card-shadow;
       margin: $card-gutter;
-
-      & .card-content {
-        padding: $card-padding;
-      }
     }
     
     @at-root {
-      /* Add class "card-cluster" to grandparent/parent */
-      div.card-cluster {
+      .card-cluster {
         margin: -$card-gutter;
+
+        & .card-content {
+          padding: $card-padding;
+        }
       }
     }
   }
