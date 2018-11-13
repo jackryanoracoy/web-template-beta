@@ -31,11 +31,11 @@ MORE INFORMATION
 ------------------------------------------------------------  
 SASS Files: common/scss/  
   
-_base.scss - the base style and browser fixes.  
-_component.scss - the list of components that will be used, located at 'common/scss/components'.  
-_fonts.scss - the font variations hosted on the website.  
-_layout.scss - the website structure/layout codes.  
-_mixin.scss - the mixins.  
-_print.scss - the style for prints.  
-_utility.scss - the helper styles.  
-_variable.scss - the variable used for the styles.  
+_base.scss - Base style and browser fixes.  
+_component.scss - List of components that will be used, located at 'common/scss/components'.  
+_fonts.scss - Font variations hosted on the website.  
+_layout.scss - Website structure/layout styles.  
+_mixin.scss - All mixins are here.  
+_print.scss - Style for print.  
+_utility.scss - List of helpers/utilities that can be used, located at 'common/scss/utilities'.  
+_variable.scss - Variable used for the styles.  
