@@ -12,17 +12,10 @@
       border: $card-border;
       border-radius: $card-radius;
       box-shadow: $card-shadow;
-      margin: $card-gutter;
     }
-    
-    @at-root {
-      .card-cluster {
-        margin: -$card-gutter;
 
-        & .card-content {
-          padding: $card-padding;
-        }
-      }
+    & .card-content {
+      padding: $card-padding;
     }
   }
 }

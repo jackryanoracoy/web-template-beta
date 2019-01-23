@@ -1,0 +1,71 @@
+// Helper - Grid Layout
+
+/*--------------------------------------------------
+  float-container
+--------------------------------------------------*/
+
+@mixin float-container($extend: true) {
+  @if $extend {
+    @extend %float-container;
+  } @else {
+    &::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+}
+
+%float-container { @include float-container($extend: false); }
+
+.float-container {
+  @include float-container;
+
+  &.gap10 { margin: -5px; & > div { padding: 5px; } }
+  &.gap20 { margin: -10px; & > div { padding: 10px; } }
+  &.gap30 { margin: -15px; & > div { padding: 15px; } }
+  &.gap40 { margin: -20px; & > div { padding: 20px; } }
+  &.gap50 { margin: -25px; & > div { padding: 25px; } }
+  &.gap60 { margin: -30px; & > div { padding: 30px; } }
+  &.gap70 { margin: -35px; & > div { padding: 35px; } }
+  &.gap80 { margin: -40px; & > div { padding: 40px; } }
+  &.gap90 { margin: -45px; & > div { padding: 45px; } }
+  &.gap100 { margin: -50px; & > div { padding: 50px; } }
+}
+
+/*--------------------------------------------------
+  float-containerl - Column
+--------------------------------------------------*/
+
+.float-container {
+  .float-content {
+    float: left;
+    width: 100%;
+  }
+}
+
+@each $column-width in $col-width-list {
+  $i: index($col-width-list, $column-width);
+  .float-container { .float-content { &.xs#{$i} { width: nth($col-width-list, $i); } } }
+}
+
+@media (min-width: $media-small + 1) {
+  @each $column-width in $col-width-list {
+    $i: index($col-width-list, $column-width);
+    .float-container { .float-content { &.s#{$i} { width: nth($col-width-list, $i); } } }
+  }
+}
+
+@media (min-width: $media-medium + 1) {
+  @each $column-width in $col-width-list {
+    $i: index($col-width-list, $column-width);
+    .float-container { .float-content { &.m#{$i} { width: nth($col-width-list, $i); } } }
+  }
+}
+
+@media (min-width: $media-large + 1) {
+  @each $column-width in $col-width-list {
+    $i: index($col-width-list, $column-width);
+    .float-container { .float-content { &.l#{$i} { width: nth($col-width-list, $i); } } }
+  }
+}

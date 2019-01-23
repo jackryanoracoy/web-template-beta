@@ -12,7 +12,7 @@
       width: 30px;
       height: 30px;
       padding: 5px;
-      color: #FFF !important;
+      color: $white !important;
       font-size: 1rem;
       text-align: center;
       text-decoration: none;
@@ -98,6 +98,7 @@
       background-color: $white;
       white-space: nowrap;
     }
+    
     &:hover { box-shadow: $z-depth; }
 
     &:hover, &:focus, &:active, &:visited { color: $default-color; }
@@ -119,22 +120,22 @@
 
   &.red {
     color: $white;
-    background-color: $red;
+    background-color: $red-500;
   }
 
   &.green {
     color: $white;
-    background-color: $green;
+    background-color: $green-500;
   }
 
   &.blue {
     color: $white;
-    background-color: $blue;
+    background-color: $blue-500;
   }
 
   &.orange {
     color: $white;
-    background-color: $orange;
+    background-color: $orange-500;
   }
 }
 

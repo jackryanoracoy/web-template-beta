@@ -4,11 +4,11 @@
   Display according to viewport
 --------------------------------------------------*/
 
-@media only screen and (min-width: $media-medium + 1) {
+@media (min-width: $media-medium + 1) {
   .mobile { display: none !important; }
 }
 
-@media only screen and (max-width: $media-medium) {
+@media (max-width: $media-medium) {
   .desktop { display: none !important; }
 }
 
@@ -34,48 +34,89 @@
 .font-large { font-size: $extra-large-size; }
 
 /*--------------------------------------------------
-  gutter
+  Gutter
 --------------------------------------------------*/
 
 .gutter {
   margin: auto;
 
-  &.ver-10 { margin: 10px 0; }
-  &.ver-20 { margin: 20px 0; }
-  &.ver-30 { margin: 30px 0; }
-  &.ver-40 { margin: 40px 0; }
-  &.ver-50 { margin: 50px 0; }
-  &.ver-60 { margin: 60px 0; }
-  &.ver-70 { margin: 70px 0; }
-  &.ver-80 { margin: 80px 0; }
-  &.ver-90 { margin: 90px 0; }
-  &.ver-100 { margin: 100px 0; }
+  &.top10 { margin-top: 10px; }
+  &.top20 { margin-top: 20px; }
+  &.top30 { margin-top: 30px; }
+  &.top40 { margin-top: 40px; }
+  &.top50 { margin-top: 50px; }
+  &.top60 { margin-top: 60px; }
+  &.top70 { margin-top: 70px; }
+  &.top80 { margin-top: 80px; }
+  &.top90 { margin-top: 90px; }
+  &.top100 { margin-top: 100px; }
 
-  &.top-10 { margin-top: 10px; }
-  &.top-20 { margin-top: 20px; }
-  &.top-30 { margin-top: 30px; }
-  &.top-40 { margin-top: 40px; }
-  &.top-50 { margin-top: 50px; }
-  &.top-60 { margin-top: 60px; }
-  &.top-70 { margin-top: 70px; }
-  &.top-80 { margin-top: 80px; }
-  &.top-90 { margin-top: 90px; }
-  &.top-100 { margin-top: 100px; }
+  &.bot10 { margin-bottom: 10px; }
+  &.bot20 { margin-bottom: 20px; }
+  &.bot30 { margin-bottom: 30px; }
+  &.bot40 { margin-bottom: 40px; }
+  &.bot50 { margin-bottom: 50px; }
+  &.bot60 { margin-bottom: 60px; }
+  &.bot70 { margin-bottom: 70px; }
+  &.bot80 { margin-bottom: 80px; }
+  &.bot90 { margin-bottom: 90px; }
+  &.bot100 { margin-bottom: 100px; }
+}
 
-  &.bot-10 { margin-bottom: 10px; }
-  &.bot-20 { margin-bottom: 20px; }
-  &.bot-30 { margin-bottom: 30px; }
-  &.bot-40 { margin-bottom: 40px; }
-  &.bot-50 { margin-bottom: 50px; }
-  &.bot-60 { margin-bottom: 60px; }
-  &.bot-70 { margin-bottom: 70px; }
-  &.bot-80 { margin-bottom: 80px; }
-  &.bot-90 { margin-bottom: 90px; }
-  &.bot-100 { margin-bottom: 100px; }
+@media (min-width: $media-medium + 1) {
+  .gutter {  
+    &.desktop-top10 { margin-top: 10px; }
+    &.desktop-top20 { margin-top: 20px; }
+    &.desktop-top30 { margin-top: 30px; }
+    &.desktop-top40 { margin-top: 40px; }
+    &.desktop-top50 { margin-top: 50px; }
+    &.desktop-top60 { margin-top: 60px; }
+    &.desktop-top70 { margin-top: 70px; }
+    &.desktop-top80 { margin-top: 80px; }
+    &.desktop-top90 { margin-top: 90px; }
+    &.desktop-top100 { margin-top: 100px; }
+  
+    &.desktop-bot10 { margin-bottom: 10px; }
+    &.desktop-bot20 { margin-bottom: 20px; }
+    &.desktop-bot30 { margin-bottom: 30px; }
+    &.desktop-bot40 { margin-bottom: 40px; }
+    &.desktop-bot50 { margin-bottom: 50px; }
+    &.desktop-bot60 { margin-bottom: 60px; }
+    &.desktop-bot70 { margin-bottom: 70px; }
+    &.desktop-bot80 { margin-bottom: 80px; }
+    &.desktop-bot90 { margin-bottom: 90px; }
+    &.desktop-bot100 { margin-bottom: 100px; }
+  }
+}
+
+@media (max-width: $media-medium) {
+  .gutter {
+    &.mobile-top10 { margin-top: 10px; }
+    &.mobile-top20 { margin-top: 20px; }
+    &.mobile-top30 { margin-top: 30px; }
+    &.mobile-top40 { margin-top: 40px; }
+    &.mobile-top50 { margin-top: 50px; }
+    &.mobile-top60 { margin-top: 60px; }
+    &.mobile-top70 { margin-top: 70px; }
+    &.mobile-top80 { margin-top: 80px; }
+    &.mobile-top90 { margin-top: 90px; }
+    &.mobile-top100 { margin-top: 100px; }
+  
+    &.mobile-bot10 { margin-bottom: 10px; }
+    &.mobile-bot20 { margin-bottom: 20px; }
+    &.mobile-bot30 { margin-bottom: 30px; }
+    &.mobile-bot40 { margin-bottom: 40px; }
+    &.mobile-bot50 { margin-bottom: 50px; }
+    &.mobile-bot60 { margin-bottom: 60px; }
+    &.mobile-bot70 { margin-bottom: 70px; }
+    &.mobile-bot80 { margin-bottom: 80px; }
+    &.mobile-bot90 { margin-bottom: 90px; }
+    &.mobile-bot100 { margin-bottom: 100px; }
+  }
 }
 
 /*--------------------------------------------------
-  Z-depth
+  z-depth
 --------------------------------------------------*/
 
 .z-depth { box-shadow: $z-depth; }

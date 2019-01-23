@@ -1,0 +1,42 @@
+/*--------------------------------------------------------------
+ font-face - Roboto Condensed
+--------------------------------------------------------------*/
+
+@mixin roboto_condense {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+}
+
+@mixin font-weight($font-weight) {
+  font-weight: $font-weight;
+}
+
+@font-face {
+  @include roboto_condense;
+  @include font-weight(300);
+  src: local('Roboto Condensed Light'), 
+       local('RobotoCondensed-Light'), 
+       url(../fonts/Roboto_Condensed/Roboto-Condensed-Light.woff2) format('woff2'),
+       url(../fonts/Roboto_Condensed/Roboto-Condensed-Light.woff) format('woff'),
+       url(../fonts/Roboto_Condensed/Roboto-Condensed-Light.ttf) format('truetype');
+}
+
+@font-face {
+  @include roboto_condense;
+  @include font-weight(400);
+  src: local('Roboto Condensed'),
+       local('RobotoCondensed-Regular'),
+       url(../fonts/Roboto_Condensed/Roboto-Condensed.woff2) format('woff2'),
+       url(../fonts/Roboto_Condensed/Roboto-Condensed.woff) format('woff'),
+       url(../fonts/Roboto_Condensed/Roboto-Condensed.ttf) format('truetype');
+}
+
+@font-face {
+  @include roboto_condense;
+  @include font-weight(700);
+  src: local('Roboto Condensed Bold'),
+       local('RobotoCondensed-Bold'),
+       url(../fonts/Roboto_Condensed/Roboto-Condensed-Bold.ttf) format('woff2'),
+       url(../fonts/Roboto_Condensed/Roboto-Condensed-Bold.woff) format('woff'),
+       url(../fonts/Roboto_Condensed/Roboto-Condensed-Bold.ttf) format('truetype');
+}

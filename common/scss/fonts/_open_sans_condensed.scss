@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------
+ font-face - Open Sans Condensed
+--------------------------------------------------------------*/
+
+@mixin open_sans_condense {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+}
+
+@mixin font-weight($font-weight) {
+  font-weight: $font-weight;
+}
+
+@font-face {
+  @include open_sans_condense;
+  @include font-weight(300);
+  src: local('Open Sans Condensed Light'),
+       local('OpenSansCondensed-Light'),
+       url(../fonts/Open_Sans_Condensed/Open-Sans-Condensed-Light.woff2) format('woff2'),
+       url(../fonts/Open_Sans_Condensed/Open-Sans-Condensed-Light.woff) format('woff'),
+       url(../fonts/Open_Sans_Condensed/Open-Sans-Condensed-Light.ttf) format('truetype');
+}
+
+
+@font-face {
+  @include open_sans_condense;
+  @include font-weight(700);
+  src: local('Open Sans Condensed Bold'),
+       local('OpenSansCondensed-Bold'),
+       url(../fonts/Open_Sans_Condensed/Open-Sans-Condensed-Bold.ttf) format('woff2'),
+       url(../fonts/Open_Sans_Condensed/Open-Sans-Condensed-Bold.woff) format('woff'),
+       url(../fonts/Open_Sans_Condensed/Open-Sans-Condensed-Bold.ttf) format('truetype');
+}
