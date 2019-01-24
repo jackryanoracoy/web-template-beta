@@ -1,84 +1,4 @@
 /*--------------------------------------------------
-  menu-btn
---------------------------------------------------*/
-
-@mixin menu-btn($extend: true) {
-  @if $extend {
-    @extend %menu-btn;
-  } @else {
-    & {
-      position: relative;
-      display: block;
-      width: 30px;
-      height: 30px;
-      padding: 5px;
-      color: $white !important;
-      font-size: 1rem;
-      text-align: center;
-      text-decoration: none;
-      text-transform: lowercase;
-    }
-    
-    & .menu-box {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 20px;
-      height: 20px;
-    }
-    
-    & .menu-inner {
-      position: relative;
-      display: block;
-      width: inherit;
-      height: 3px;
-      background-color: $menu-button-color;
-    }
-    
-    & .menu-inner::after,
-    & .menu-inner::before {
-      position: absolute;
-      content: "";
-      display: block;
-      width: 100%;
-      height: 3px;
-      background-color: $menu-button-color;
-      transition: all 60ms linear;
-    }
-    
-    & .menu-inner::before {
-      top: -8px;
-    }
-    
-    & .menu-inner::after {
-      bottom: -8px;
-    }
-    
-    & .menu-text {
-      margin: 4px 0 0;
-    }
-    
-    &.active .menu-inner {
-      background-color: rgba(0, 0, 0, 0);
-    }
-    
-    &.active .menu-inner::before {
-      top: 0;
-      transform: rotate(-40deg);
-    }
-    
-    &.active .menu-inner::after {
-      bottom: 0;
-      transform: rotate(40deg);
-    }
-  }
-}
-
-%menu-btn { @include menu-btn($extend: false); }
-
-.menu-btn { @include menu-btn; }
-
-/*--------------------------------------------------
   btn
 --------------------------------------------------*/
 
@@ -98,18 +18,12 @@
       background-color: $white;
       white-space: nowrap;
     }
-    
+
     &:hover { box-shadow: $z-depth; }
 
     &:hover, &:focus, &:active, &:visited { color: $default-color; }
 
-    @at-root {
-      .btn-cluster {
-        margin: -$button-gap;
-
-        & .btn { margin: $button-gap; }
-      }
-    }
+    @at-root { .btn-cluster { margin: -$button-gap; & .btn { margin: $button-gap; } } }
   }
 }
   

@@ -2,7 +2,7 @@
  font-face - Roboto Condensed
 --------------------------------------------------------------*/
 
-@mixin roboto_condense {
+@mixin font {
   font-family: 'Roboto Condensed';
   font-style: normal;
 }
@@ -12,7 +12,7 @@
 }
 
 @font-face {
-  @include roboto_condense;
+  @include font;
   @include font-weight(300);
   src: local('Roboto Condensed Light'), 
        local('RobotoCondensed-Light'), 
@@ -22,7 +22,7 @@
 }
 
 @font-face {
-  @include roboto_condense;
+  @include font;
   @include font-weight(400);
   src: local('Roboto Condensed'),
        local('RobotoCondensed-Regular'),
@@ -32,7 +32,7 @@
 }
 
 @font-face {
-  @include roboto_condense;
+  @include font;
   @include font-weight(700);
   src: local('Roboto Condensed Bold'),
        local('RobotoCondensed-Bold'),

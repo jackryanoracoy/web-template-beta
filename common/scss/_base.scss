@@ -32,9 +32,7 @@ html {
   outline: 1px dashed $default-color;
 
   @at-root {
-    body:not(.tab-used ) *:focus {
-      outline: none;
-    }
+    body:not(.tab-used ) *:focus { outline: none; }
   }
 }
 

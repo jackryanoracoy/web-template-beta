@@ -2,7 +2,7 @@
  font-face
 --------------------------------------------------------------*/
 
-@mixin roboto {
+@mixin font {
   font-family: 'Roboto';
   font-style: normal;
 }
@@ -11,10 +11,8 @@
   font-weight: $font-weight;
 }
 
-// Roboto
-
 @font-face {
-  @include roboto;
+  @include font;
   @include font-weight(300);
   src: local('Roboto Light'),
        local('Roboto-Light'),
@@ -24,7 +22,7 @@
 }
 
 @font-face {
-  @include roboto;
+  @include font;
   @include font-weight(400);
   src: local('Roboto'),
        local('Roboto-Regular'),
@@ -34,7 +32,7 @@
 }
 
 @font-face {
-  @include roboto;
+  @include font;
   @include font-weight(500);
   src: local('Roboto Medium'),
        local('Roboto-Medium'),
@@ -44,7 +42,7 @@
 }
 
 @font-face {
-  @include roboto;
+  @include font;
   @include font-weight(700);
   src: local('Roboto Bold'),
        local('Roboto-Bold'),

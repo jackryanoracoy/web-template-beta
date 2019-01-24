@@ -2,7 +2,7 @@
  font-face - Noto Sans
 --------------------------------------------------------------*/
 
-@mixin noto_sans {
+@mixin font {
   font-family: 'Noto Sans';
   font-style: normal;
 }
@@ -12,7 +12,7 @@
 }
 
 @font-face {
-  @include noto_sans;
+  @include font;
   @include font-weight(400);
   src: local('Noto Sans'),
        local('NotoSans'),
@@ -22,7 +22,7 @@
 }
 
 @font-face {
-  @include noto_sans;
+  @include font;
   @include font-weight(700);
   src: local('Noto Sans Bold'),
        local('NotoSans-Bold'), 
