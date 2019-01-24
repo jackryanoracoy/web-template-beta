@@ -11,20 +11,21 @@
       list-style: none;
     }
 
-    & li { height: $navigation-height; }
+    & li {
+      height: $navigation-height;
+      overflow: hidden;
+    }
 
     & a {
       display: block;
-      padding: 0 30px;
+      padding: 0 10px;
       color: $white;
       font-size: 1.5rem;
       line-height: $navigation-height;
       text-decoration: none;
-    }
-
-    & a:hover,
-    & a.active { 
-      background-color: $active-color; 
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
     }
   }
 }

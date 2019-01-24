@@ -1,0 +1,17 @@
+/*--------------------------------------------------
+  wrap
+--------------------------------------------------*/
+
+@mixin wrap($extend: true) {
+  @if $extend {
+    @extend %wrap;
+  } @else {
+    width: 100%;
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+}
+
+%wrap { @include wrap($extend: false); }
+
+.wrap { @include wrap; }

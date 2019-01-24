@@ -1,0 +1,20 @@
+/*--------------------------------------------------
+  footer-section
+--------------------------------------------------*/
+
+.footer-section {
+  position: relative;
+  z-index: 1;
+
+  & .ext-footer {
+    display: flex;
+    align-items: center;
+    height: 60px;
+  }
+  
+  & .footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+  }
+}

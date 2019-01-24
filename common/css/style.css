@@ -2881,7 +2881,7 @@ textarea {
   object-position: top;
 }
 
-@media only screen and (min-width: 993px) {
+@media (min-width: 993px) {
   .object-fit-desktop {
     object-fit: inherit;
     width: 100%;
@@ -2923,7 +2923,7 @@ textarea {
     object-position: top;
   }
 }
-@media only screen and (max-width: 992px) {
+@media (max-width: 992px) {
   .object-fit-mobile {
     object-fit: inherit;
     width: 100%;
@@ -3262,17 +3262,18 @@ textarea {
 }
 .main-nav li {
   height: 50px;
+  overflow: hidden;
 }
 .main-nav a {
   display: block;
-  padding: 0 30px;
+  padding: 0 10px;
   color: #FFF;
   font-size: 1.5rem;
   line-height: 50px;
   text-decoration: none;
-}
-.main-nav a:hover, .main-nav a.active {
-  background-color: #FF9800;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 @media only screen and (max-width: 992px) {
@@ -3322,9 +3323,9 @@ textarea {
 .menu-btn {
   position: relative;
   display: block;
-  width: 30px;
-  height: 30px;
-  padding: 5px;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
   color: #FFF !important;
   font-size: 1rem;
   text-align: center;
@@ -3465,10 +3466,9 @@ textarea {
 }
 
 /*--------------------------------------------------
-  wrap, container
+  wrap
 --------------------------------------------------*/
-.wrap,
-.container {
+.wrap {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
@@ -3480,6 +3480,10 @@ textarea {
 .header-section {
   position: fixed;
   top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   background-color: #009688;
   transition: all 160ms ease-in-out 500ms;
@@ -3491,24 +3495,40 @@ textarea {
 .header-section.active.show, .header-section.menu-opened {
   top: 0 !important;
 }
-
-/*--------------------------------------------------
-  site-header
---------------------------------------------------*/
-.site-header {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+.header-section > :nth-child(1) {
+  order: 1;
+  width: 40px;
+}
+.header-section > :nth-child(2) {
+  order: 2;
+  width: calc(100% - 40px);
+}
+.header-section > :nth-child(3) {
+  order: 3;
+}
+.header-section > :nth-child(4) {
+  order: 4;
   width: 100%;
-  height: 60px;
-  margin: auto;
-  padding: 0 10px;
-  z-index: 1;
 }
 
-@media only screen and (min-width: 993px) {
+@media (min-width: 993px) {
+  .header-section > :nth-child(2), .header-section > :nth-child(3) {
+    width: auto;
+    max-width: 50%;
+  }
+}
+/*--------------------------------------------------
+  site-header 
+--------------------------------------------------*/
+.site-header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+@media (min-width: 993px) {
   .site-header {
+    width: auto;
     height: 80px;
     padding: 0 20px;
   }
@@ -3517,7 +3537,7 @@ textarea {
   site-cta
 --------------------------------------------------*/
 .site-cta {
-  margin-left: auto;
+  padding: 0 20px;
 }
 
 /*--------------------------------------------------
@@ -3533,7 +3553,7 @@ textarea {
   max-height: 100vh;
 }
 
-@media only screen and (min-width: 993px) {
+@media (min-width: 993px) {
   .site-navigation {
     max-height: 100vh;
   }
@@ -3545,81 +3565,73 @@ textarea {
   }
 }
 /*--------------------------------------------------
-  site-atf
+  above-the-fold-section
 --------------------------------------------------*/
-.site-atf {
+.above-the-fold-section {
   height: 250px;
   padding: 60px 0 0;
 }
-.site-atf > div {
+.above-the-fold-section > div {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100%;
 }
-.site-atf h2 {
+.above-the-fold-section h2 {
   text-align: center;
 }
 
-@media only screen and (min-width: 993px) {
-  .site-atf {
+@media (min-width: 993px) {
+  .above-the-fold-section {
     height: 400px;
     padding: 130px 0 0;
   }
 }
 /*--------------------------------------------------
-  site_aside
+  aside-section
 --------------------------------------------------*/
-.site-aside {
+.aside-section {
   height: auto;
   padding: 20px 0 0;
 }
 
-@media only screen and (min-width: 993px) {
-  .site-aside {
+@media (min-width: 993px) {
+  .aside-section {
     padding: 50px 0 0;
   }
 }
 /*--------------------------------------------------
-  site-footer
+  main-section
 --------------------------------------------------*/
-.site-footer {
+.main-section {
+  position: relative;
+  padding: 20px 0 0;
+}
+
+@media (min-width: 993px) {
+  .main-section {
+    padding: 50px 0 0;
+  }
+}
+/*--------------------------------------------------
+  footer-section
+--------------------------------------------------*/
+.footer-section {
   position: relative;
   z-index: 1;
 }
-
-/*--------------------------------------------------
-  ext-footer
---------------------------------------------------*/
-.ext-footer {
+.footer-section .ext-footer {
   display: flex;
   align-items: center;
   height: 60px;
 }
-
-/*--------------------------------------------------
-  footer
---------------------------------------------------*/
-.footer {
+.footer-section .footer {
   display: flex;
   align-items: center;
   height: 100px;
 }
 
-/*--------------------------------------------------
-  site-main
---------------------------------------------------*/
-.site-main {
-  position: relative;
-  padding: 20px 0 0;
-}
-
-@media only screen and (min-width: 993px) {
-  .site-main {
-    padding: 50px 0 0;
-  }
-}
 /*--------------------------------------------------
   section
 --------------------------------------------------*/
@@ -3630,7 +3642,7 @@ textarea {
   padding: 0;
 }
 
-@media only screen and (min-width: 993px) {
+@media (min-width: 993px) {
   .section {
     padding: 20px 20px 50px;
   }
@@ -3670,7 +3682,7 @@ textarea {
   grid-row: 1/2;
 }
 
-@media only screen and (min-width: 601px) {
+@media (min-width: 601px) {
   .site-content {
     -ms-grid-columns: 200px 1fr;
     -ms-grid-rows: 1fr;
@@ -3698,7 +3710,10 @@ textarea {
   body {
     font-family: inherit;
     width: 100%;
-    width: 640px\9;
+  }
+
+  section {
+    page-break-inside: avoid;
   }
 }
 

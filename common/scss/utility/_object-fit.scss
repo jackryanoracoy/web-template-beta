@@ -53,10 +53,10 @@
 
 .object-fit { @include object-fit; }
 
-@media only screen and (min-width: $media-medium + 1) {
+@media (min-width: $media-medium + 1) {
   .object-fit-desktop { @include object-fit(false); }
 }
 
-@media only screen and (max-width: $media-medium) {
+@media (max-width: $media-medium) {
   .object-fit-mobile { @include object-fit(false); }
 }

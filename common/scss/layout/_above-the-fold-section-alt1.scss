@@ -1,0 +1,25 @@
+/*--------------------------------------------------
+  above-the-fold-section
+--------------------------------------------------*/
+
+.above-the-fold-section {
+  height: 250px;
+  padding: $header-height_m 0 0;
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  & h2 { text-align: center; }
+}
+
+@media (min-width: $media-medium + 1) {
+  .above-the-fold-section {
+    height: 400px;
+    padding: $header-height 0 0;
+  }
+}

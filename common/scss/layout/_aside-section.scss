@@ -1,0 +1,12 @@
+/*--------------------------------------------------
+  aside-section
+--------------------------------------------------*/
+
+.aside-section {
+  height: auto;
+  padding: 20px 0 0;
+}
+
+@media (min-width: $media-medium + 1) {
+  .aside-section { padding: 50px 0 0; }
+}

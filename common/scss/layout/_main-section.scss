@@ -1,0 +1,12 @@
+/*--------------------------------------------------
+  main-section
+--------------------------------------------------*/
+
+.main-section {
+  position: relative;
+  padding: 20px 0 0;
+}
+
+@media (min-width: $media-medium + 1) {
+  .main-section { padding: 50px 0 0; }
+}
