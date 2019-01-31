@@ -11,15 +11,19 @@
       background-color: $card-color;
       border: $card-border;
       border-radius: $card-radius;
-      box-shadow: $card-shadow;
-    }
-
-    & .card-content {
-      padding: $card-padding;
     }
   }
 }
 
 %card { @include card($extend: false); }
 
-.card { @include card; }
+.card {
+  @include card;
+  & .card-content { padding: $card-padding_m; } 
+}
+
+@media (min-width: $media-medium + 1) {
+  .card {
+    & .card-content { padding: $card-padding; } 
+  }
+}

@@ -33,6 +33,38 @@
   &.gap100 { margin: -50px; & > div { padding: 50px; } }
 }
 
+@media (min-width: $media-medium + 1) {
+  .float-container {
+
+    &.desktop-gap10 { margin: -5px; & > div { padding: 5px; } }
+    &.desktop-gap20 { margin: -10px; & > div { padding: 10px; } }
+    &.desktop-gap30 { margin: -15px; & > div { padding: 15px; } }
+    &.desktop-gap40 { margin: -20px; & > div { padding: 20px; } }
+    &.desktop-gap50 { margin: -25px; & > div { padding: 25px; } }
+    &.desktop-gap60 { margin: -30px; & > div { padding: 30px; } }
+    &.desktop-gap70 { margin: -35px; & > div { padding: 35px; } }
+    &.desktop-gap80 { margin: -40px; & > div { padding: 40px; } }
+    &.desktop-gap90 { margin: -45px; & > div { padding: 45px; } }
+    &.desktop-gap100 { margin: -50px; & > div { padding: 50px; } }
+  }
+}
+
+@media (max-width: $media-medium) {
+  .float-container {
+
+    &.mobile-gap10 { margin: -5px; & > div { padding: 5px; } }
+    &.mobile-gap20 { margin: -10px; & > div { padding: 10px; } }
+    &.mobile-gap30 { margin: -15px; & > div { padding: 15px; } }
+    &.mobile-gap40 { margin: -20px; & > div { padding: 20px; } }
+    &.mobile-gap50 { margin: -25px; & > div { padding: 25px; } }
+    &.mobile-gap60 { margin: -30px; & > div { padding: 30px; } }
+    &.mobile-gap70 { margin: -35px; & > div { padding: 35px; } }
+    &.mobile-gap80 { margin: -40px; & > div { padding: 40px; } }
+    &.mobile-gap90 { margin: -45px; & > div { padding: 45px; } }
+    &.mobile-gap100 { margin: -50px; & > div { padding: 50px; } }
+  }
+}
+
 /*--------------------------------------------------
   float-containerl - Column
 --------------------------------------------------*/

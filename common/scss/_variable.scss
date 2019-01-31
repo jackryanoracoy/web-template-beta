@@ -339,8 +339,8 @@ $normal-height: 1.5;
 $large-height: 2;
 
 // box-shadow
-$z-depth: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
-$z-depth-1: 0 2px 4px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.15), 0 3px 1px -2px rgba(0,0,0,0.2);
+$z-depth: 0 2px 2px 0 rgba(0,0,0,0.1), 0 1px 4px 0 rgba(0,0,0,0.05), 0 2px 1px -2px rgba(0,0,0,0.2);
+$z-depth-1: 0 4px 4px 0 rgba(0,0,0,0.15), 0 2px 8px 0 rgba(0,0,0,0.1), 0 2px 1px -2px rgba(0,0,0,0.2);
 
 // button
 $menu-button-color: #FFF;
@@ -355,4 +355,4 @@ $card-color: #FAFAFA;
 $card-radius: 2px;
 $card-border: 1px solid #EEE;
 $card-padding: 15px;
-$card-shadow: 0 1px 2px 0 rgba(0,0,0,0.12);
+$card-padding_m: 10px;

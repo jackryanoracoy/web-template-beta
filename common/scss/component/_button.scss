@@ -8,20 +8,21 @@
   } @else {
     & {
       display: inline-block;
-      padding: 0 20px;
-      color: $default-color;
+      padding: 0 30px;
+      color: $white;
       font-size: $default-size;
       line-height: $button-radius + $button-radius;
       text-decoration: none;
       text-transform: uppercase;
       border-radius: $button-radius;
-      background-color: $white;
+      background-color: $primary-color;
       white-space: nowrap;
+      box-shadow: $z-depth;
     }
 
-    &:hover { box-shadow: $z-depth; }
+    &:hover { box-shadow: $z-depth-1; }
 
-    &:hover, &:focus, &:active, &:visited { color: $default-color; }
+    &:hover, &:focus, &:active, &:visited { color: $white; }
 
     @at-root { .btn-cluster { margin: -$button-gap; & .btn { margin: $button-gap; } } }
   }
@@ -31,6 +32,11 @@
 
 .btn { 
   @include btn;
+
+  &.white {
+    color: $default-color;
+    background-color: $white;
+  }
 
   &.red {
     color: $white;
@@ -50,15 +56,5 @@
   &.orange {
     color: $white;
     background-color: $orange-500;
-  }
-}
-
-@media only screen and (min-width: $media-small + 1) {
-  // Sample only
-  // Sample on extending on a media query (add "false")
-  .btn-sample-desktop {
-    @include btn(false);
-    background-color: FAFAFA;
-    height: 20px;
   }
 }
