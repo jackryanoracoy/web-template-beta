@@ -31,10 +31,10 @@ MORE INFORMATION
 SASS Files: common/scss/  
   
 _base.scss - Base style and browser fixes.  
-_fonts.scss - Font variations, located at 'common/scss/fonts/* and common/fonts/*'.  
-_component.scss - List of components, located at 'common/scss/component/*'.  
-_layout.scss - List of layouts, located at 'common/scss/loyout/*'.  
-_utility.scss - List of utilities, located at 'common/scss/utilitie/*'.  
+_fonts.scss - Font variations, located at "common/scss/fonts/xxx and common/fonts/xxx".   
+_layout.scss - List of layouts, located at "common/scss/layout/xxx".  
+_component.scss - List of components, located at "common/scss/component/xxx".  
+_utility.scss - List of utilities, located at "common/scss/utility/xxx".  
 _mixin.scss -  Some mixins.  
-_print.scss - Style for print.   
+_print.scss - Style for print.  
 _variable.scss - Variable used for styles.  

@@ -2,9 +2,9 @@
   wrap
 --------------------------------------------------*/
 
-@mixin wrap($extend: true) {
+@mixin container($extend: true) {
   @if $extend {
-    @extend %wrap;
+    @extend %container;
   } @else {
     width: 100%;
     max-width: $max-width;
@@ -12,6 +12,6 @@
   }
 }
 
-%wrap { @include wrap($extend: false); }
+%container { @include container($extend: false); }
 
-.wrap { @include wrap; }
+.site-container { @include container; }

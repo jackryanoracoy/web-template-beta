@@ -11,9 +11,10 @@
     & {
       display: flex;
       flex-wrap: wrap;
+      overflow: hidden;
     }
     
-    &.nowrap { flex-wrap: nowrap; }
+    &.no-wrap { flex-wrap: nowrap; }
 
     &.column { flex-direction: column; }
     &.column-reverse { flex-direction: column-reverse; }
@@ -46,6 +47,11 @@
   &.gap80 { margin: -40px; & > div { padding: 40px; } }
   &.gap90 { margin: -45px; & > div { padding: 45px; } }
   &.gap100 { margin: -50px; & > div { padding: 50px; } }
+
+  &.grow > div { flex-grow: 1; }
+  &.no-grow > div { flex-grow: 0; }
+  &.shrink > div { flex-shrink: 1; }
+  &.no-shrink > div { flex-shrink: 0; }
 }
 
 @media (min-width: $media-medium + 1) {
@@ -61,6 +67,11 @@
     &.desktop-gap80 { margin: -40px; & > div { padding: 40px; } }
     &.desktop-gap90 { margin: -45px; & > div { padding: 45px; } }
     &.desktop-gap100 { margin: -50px; & > div { padding: 50px; } }
+
+    &.desktop-grow > div { flex-grow: 1; }
+    &.desktop-no-grow > div { flex-grow: 0; }
+    &.desktop-shrink > div { flex-shrink: 1; }
+    &.desktop-no-shrink > div { flex-shrink: 0; }
   }
 }
 
@@ -77,6 +88,11 @@
     &.mobile-gap80 { margin: -40px; & > div { padding: 40px; } }
     &.mobile-gap90 { margin: -45px; & > div { padding: 45px; } }
     &.mobile-gap100 { margin: -50px; & > div { padding: 50px; } }
+
+    &.mobile-grow > div { flex-grow: 1; }
+    &.mobile-no-grow > div { flex-grow: 0; }
+    &.mobile-shrink > div { flex-shrink: 1; }
+    &.mobile-no-shrink > div { flex-shrink: 0; }
   }
 }
 
@@ -90,26 +106,26 @@
 
 @each $column-width in $col-width-list {
   $i: index($col-width-list, $column-width);
-  .flex-container { .flex-content { &.xs#{$i} { width: nth($col-width-list, $i); } } }
+  .flex-container { .flex-content { &.xs#{$i} { max-width: nth($col-width-list, $i); } } }
 }
 
 @media (min-width: $media-small + 1) {
   @each $column-width in $col-width-list {
     $i: index($col-width-list, $column-width);
-    .flex-container { .flex-content { &.s#{$i} { width: nth($col-width-list, $i); } } }
+    .flex-container { .flex-content { &.s#{$i} { max-width: nth($col-width-list, $i); } } }
   }
 }
 
 @media (min-width: $media-medium + 1) {
   @each $column-width in $col-width-list {
     $i: index($col-width-list, $column-width);
-    .flex-container { .flex-content { &.m#{$i} { width: nth($col-width-list, $i); } } }
+    .flex-container { .flex-content { &.m#{$i} { max-width: nth($col-width-list, $i); } } }
   }
 }
 
 @media (min-width: $media-large + 1) {
   @each $column-width in $col-width-list {
     $i: index($col-width-list, $column-width);
-    .flex-container { .flex-content { &.l#{$i} { width: nth($col-width-list, $i); } } }
+    .flex-container { .flex-content { &.l#{$i} { max-width: nth($col-width-list, $i); } } }
   }
 }

@@ -31,14 +31,14 @@
 .font-small { font-size: $small-size; }
 .font-medium { font-size: $medium-size; }
 .font-large { font-size: $large-size; }
-.font-large { font-size: $extra-large-size; }
+.font-xlarge { font-size: $extra-large-size; }
 
 /*--------------------------------------------------
   Gutter
 --------------------------------------------------*/
 
 .gutter {
-  margin: auto;
+  margin: 0;
 
   &.top10 { margin-top: 10px; }
   &.top20 { margin-top: 20px; }

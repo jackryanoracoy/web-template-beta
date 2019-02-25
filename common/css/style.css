@@ -499,198 +499,198 @@ textarea {
 }
 
 .float-container .float-content.xs1 {
-  width: 8.33333%;
+  max-width: 8.33333%;
 }
 
 .float-container .float-content.xs2 {
-  width: 16.66666%;
+  max-width: 16.66666%;
 }
 
 .float-container .float-content.xs3 {
-  width: 24.99999%;
+  max-width: 24.99999%;
 }
 
 .float-container .float-content.xs4 {
-  width: 33.33333%;
+  max-width: 33.33333%;
 }
 
 .float-container .float-content.xs5 {
-  width: 41.66666%;
+  max-width: 41.66666%;
 }
 
 .float-container .float-content.xs6 {
-  width: 49.99999%;
+  max-width: 49.99999%;
 }
 
 .float-container .float-content.xs7 {
-  width: 58.33333%;
+  max-width: 58.33333%;
 }
 
 .float-container .float-content.xs8 {
-  width: 66.66666%;
+  max-width: 66.66666%;
 }
 
 .float-container .float-content.xs9 {
-  width: 74.99999%;
+  max-width: 74.99999%;
 }
 
 .float-container .float-content.xs10 {
-  width: 83.33333%;
+  max-width: 83.33333%;
 }
 
 .float-container .float-content.xs11 {
-  width: 91.66666%;
+  max-width: 91.66666%;
 }
 
 .float-container .float-content.xs12 {
-  width: 99.99999%;
+  max-width: 99.99999%;
 }
 
 @media (min-width: 601px) {
   .float-container .float-content.s1 {
-    width: 8.33333%;
+    max-width: 8.33333%;
   }
 
   .float-container .float-content.s2 {
-    width: 16.66666%;
+    max-width: 16.66666%;
   }
 
   .float-container .float-content.s3 {
-    width: 24.99999%;
+    max-width: 24.99999%;
   }
 
   .float-container .float-content.s4 {
-    width: 33.33333%;
+    max-width: 33.33333%;
   }
 
   .float-container .float-content.s5 {
-    width: 41.66666%;
+    max-width: 41.66666%;
   }
 
   .float-container .float-content.s6 {
-    width: 49.99999%;
+    max-width: 49.99999%;
   }
 
   .float-container .float-content.s7 {
-    width: 58.33333%;
+    max-width: 58.33333%;
   }
 
   .float-container .float-content.s8 {
-    width: 66.66666%;
+    max-width: 66.66666%;
   }
 
   .float-container .float-content.s9 {
-    width: 74.99999%;
+    max-width: 74.99999%;
   }
 
   .float-container .float-content.s10 {
-    width: 83.33333%;
+    max-width: 83.33333%;
   }
 
   .float-container .float-content.s11 {
-    width: 91.66666%;
+    max-width: 91.66666%;
   }
 
   .float-container .float-content.s12 {
-    width: 99.99999%;
+    max-width: 99.99999%;
   }
 }
 @media (min-width: 993px) {
   .float-container .float-content.m1 {
-    width: 8.33333%;
+    max-width: 8.33333%;
   }
 
   .float-container .float-content.m2 {
-    width: 16.66666%;
+    max-width: 16.66666%;
   }
 
   .float-container .float-content.m3 {
-    width: 24.99999%;
+    max-width: 24.99999%;
   }
 
   .float-container .float-content.m4 {
-    width: 33.33333%;
+    max-width: 33.33333%;
   }
 
   .float-container .float-content.m5 {
-    width: 41.66666%;
+    max-width: 41.66666%;
   }
 
   .float-container .float-content.m6 {
-    width: 49.99999%;
+    max-width: 49.99999%;
   }
 
   .float-container .float-content.m7 {
-    width: 58.33333%;
+    max-width: 58.33333%;
   }
 
   .float-container .float-content.m8 {
-    width: 66.66666%;
+    max-width: 66.66666%;
   }
 
   .float-container .float-content.m9 {
-    width: 74.99999%;
+    max-width: 74.99999%;
   }
 
   .float-container .float-content.m10 {
-    width: 83.33333%;
+    max-width: 83.33333%;
   }
 
   .float-container .float-content.m11 {
-    width: 91.66666%;
+    max-width: 91.66666%;
   }
 
   .float-container .float-content.m12 {
-    width: 99.99999%;
+    max-width: 99.99999%;
   }
 }
 @media (min-width: 1101px) {
   .float-container .float-content.l1 {
-    width: 8.33333%;
+    max-width: 8.33333%;
   }
 
   .float-container .float-content.l2 {
-    width: 16.66666%;
+    max-width: 16.66666%;
   }
 
   .float-container .float-content.l3 {
-    width: 24.99999%;
+    max-width: 24.99999%;
   }
 
   .float-container .float-content.l4 {
-    width: 33.33333%;
+    max-width: 33.33333%;
   }
 
   .float-container .float-content.l5 {
-    width: 41.66666%;
+    max-width: 41.66666%;
   }
 
   .float-container .float-content.l6 {
-    width: 49.99999%;
+    max-width: 49.99999%;
   }
 
   .float-container .float-content.l7 {
-    width: 58.33333%;
+    max-width: 58.33333%;
   }
 
   .float-container .float-content.l8 {
-    width: 66.66666%;
+    max-width: 66.66666%;
   }
 
   .float-container .float-content.l9 {
-    width: 74.99999%;
+    max-width: 74.99999%;
   }
 
   .float-container .float-content.l10 {
-    width: 83.33333%;
+    max-width: 83.33333%;
   }
 
   .float-container .float-content.l11 {
-    width: 91.66666%;
+    max-width: 91.66666%;
   }
 
   .float-container .float-content.l12 {
-    width: 99.99999%;
+    max-width: 99.99999%;
   }
 }
 /*--------------------------------------------------
@@ -699,8 +699,9 @@ textarea {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
 }
-.nowrap.flex-container {
+.no-wrap.flex-container {
   flex-wrap: nowrap;
 }
 .column.flex-container {
@@ -800,6 +801,18 @@ textarea {
 .flex-container.gap100 > div {
   padding: 50px;
 }
+.flex-container.grow > div {
+  flex-grow: 1;
+}
+.flex-container.no-grow > div {
+  flex-grow: 0;
+}
+.flex-container.shrink > div {
+  flex-shrink: 1;
+}
+.flex-container.no-shrink > div {
+  flex-shrink: 0;
+}
 
 @media (min-width: 993px) {
   .flex-container.desktop-gap10 {
@@ -861,6 +874,18 @@ textarea {
   }
   .flex-container.desktop-gap100 > div {
     padding: 50px;
+  }
+  .flex-container.desktop-grow > div {
+    flex-grow: 1;
+  }
+  .flex-container.desktop-no-grow > div {
+    flex-grow: 0;
+  }
+  .flex-container.desktop-shrink > div {
+    flex-shrink: 1;
+  }
+  .flex-container.desktop-no-shrink > div {
+    flex-shrink: 0;
   }
 }
 @media (max-width: 992px) {
@@ -924,6 +949,18 @@ textarea {
   .flex-container.mobile-gap100 > div {
     padding: 50px;
   }
+  .flex-container.mobile-grow > div {
+    flex-grow: 1;
+  }
+  .flex-container.mobile-no-grow > div {
+    flex-grow: 0;
+  }
+  .flex-container.mobile-shrink > div {
+    flex-shrink: 1;
+  }
+  .flex-container.mobile-no-shrink > div {
+    flex-shrink: 0;
+  }
 }
 /*--------------------------------------------------
   flex-container - Column
@@ -933,198 +970,198 @@ textarea {
 }
 
 .flex-container .flex-content.xs1 {
-  width: 8.33333%;
+  max-width: 8.33333%;
 }
 
 .flex-container .flex-content.xs2 {
-  width: 16.66666%;
+  max-width: 16.66666%;
 }
 
 .flex-container .flex-content.xs3 {
-  width: 24.99999%;
+  max-width: 24.99999%;
 }
 
 .flex-container .flex-content.xs4 {
-  width: 33.33333%;
+  max-width: 33.33333%;
 }
 
 .flex-container .flex-content.xs5 {
-  width: 41.66666%;
+  max-width: 41.66666%;
 }
 
 .flex-container .flex-content.xs6 {
-  width: 49.99999%;
+  max-width: 49.99999%;
 }
 
 .flex-container .flex-content.xs7 {
-  width: 58.33333%;
+  max-width: 58.33333%;
 }
 
 .flex-container .flex-content.xs8 {
-  width: 66.66666%;
+  max-width: 66.66666%;
 }
 
 .flex-container .flex-content.xs9 {
-  width: 74.99999%;
+  max-width: 74.99999%;
 }
 
 .flex-container .flex-content.xs10 {
-  width: 83.33333%;
+  max-width: 83.33333%;
 }
 
 .flex-container .flex-content.xs11 {
-  width: 91.66666%;
+  max-width: 91.66666%;
 }
 
 .flex-container .flex-content.xs12 {
-  width: 99.99999%;
+  max-width: 99.99999%;
 }
 
 @media (min-width: 601px) {
   .flex-container .flex-content.s1 {
-    width: 8.33333%;
+    max-width: 8.33333%;
   }
 
   .flex-container .flex-content.s2 {
-    width: 16.66666%;
+    max-width: 16.66666%;
   }
 
   .flex-container .flex-content.s3 {
-    width: 24.99999%;
+    max-width: 24.99999%;
   }
 
   .flex-container .flex-content.s4 {
-    width: 33.33333%;
+    max-width: 33.33333%;
   }
 
   .flex-container .flex-content.s5 {
-    width: 41.66666%;
+    max-width: 41.66666%;
   }
 
   .flex-container .flex-content.s6 {
-    width: 49.99999%;
+    max-width: 49.99999%;
   }
 
   .flex-container .flex-content.s7 {
-    width: 58.33333%;
+    max-width: 58.33333%;
   }
 
   .flex-container .flex-content.s8 {
-    width: 66.66666%;
+    max-width: 66.66666%;
   }
 
   .flex-container .flex-content.s9 {
-    width: 74.99999%;
+    max-width: 74.99999%;
   }
 
   .flex-container .flex-content.s10 {
-    width: 83.33333%;
+    max-width: 83.33333%;
   }
 
   .flex-container .flex-content.s11 {
-    width: 91.66666%;
+    max-width: 91.66666%;
   }
 
   .flex-container .flex-content.s12 {
-    width: 99.99999%;
+    max-width: 99.99999%;
   }
 }
 @media (min-width: 993px) {
   .flex-container .flex-content.m1 {
-    width: 8.33333%;
+    max-width: 8.33333%;
   }
 
   .flex-container .flex-content.m2 {
-    width: 16.66666%;
+    max-width: 16.66666%;
   }
 
   .flex-container .flex-content.m3 {
-    width: 24.99999%;
+    max-width: 24.99999%;
   }
 
   .flex-container .flex-content.m4 {
-    width: 33.33333%;
+    max-width: 33.33333%;
   }
 
   .flex-container .flex-content.m5 {
-    width: 41.66666%;
+    max-width: 41.66666%;
   }
 
   .flex-container .flex-content.m6 {
-    width: 49.99999%;
+    max-width: 49.99999%;
   }
 
   .flex-container .flex-content.m7 {
-    width: 58.33333%;
+    max-width: 58.33333%;
   }
 
   .flex-container .flex-content.m8 {
-    width: 66.66666%;
+    max-width: 66.66666%;
   }
 
   .flex-container .flex-content.m9 {
-    width: 74.99999%;
+    max-width: 74.99999%;
   }
 
   .flex-container .flex-content.m10 {
-    width: 83.33333%;
+    max-width: 83.33333%;
   }
 
   .flex-container .flex-content.m11 {
-    width: 91.66666%;
+    max-width: 91.66666%;
   }
 
   .flex-container .flex-content.m12 {
-    width: 99.99999%;
+    max-width: 99.99999%;
   }
 }
 @media (min-width: 1101px) {
   .flex-container .flex-content.l1 {
-    width: 8.33333%;
+    max-width: 8.33333%;
   }
 
   .flex-container .flex-content.l2 {
-    width: 16.66666%;
+    max-width: 16.66666%;
   }
 
   .flex-container .flex-content.l3 {
-    width: 24.99999%;
+    max-width: 24.99999%;
   }
 
   .flex-container .flex-content.l4 {
-    width: 33.33333%;
+    max-width: 33.33333%;
   }
 
   .flex-container .flex-content.l5 {
-    width: 41.66666%;
+    max-width: 41.66666%;
   }
 
   .flex-container .flex-content.l6 {
-    width: 49.99999%;
+    max-width: 49.99999%;
   }
 
   .flex-container .flex-content.l7 {
-    width: 58.33333%;
+    max-width: 58.33333%;
   }
 
   .flex-container .flex-content.l8 {
-    width: 66.66666%;
+    max-width: 66.66666%;
   }
 
   .flex-container .flex-content.l9 {
-    width: 74.99999%;
+    max-width: 74.99999%;
   }
 
   .flex-container .flex-content.l10 {
-    width: 83.33333%;
+    max-width: 83.33333%;
   }
 
   .flex-container .flex-content.l11 {
-    width: 91.66666%;
+    max-width: 91.66666%;
   }
 
   .flex-container .flex-content.l12 {
-    width: 99.99999%;
+    max-width: 99.99999%;
   }
 }
 /*--------------------------------------------------
@@ -3272,7 +3309,7 @@ textarea {
   font-size: 1.8rem;
 }
 
-.font-large {
+.font-xlarge {
   font-size: 2.2rem;
 }
 
@@ -3280,7 +3317,7 @@ textarea {
   Gutter
 --------------------------------------------------*/
 .gutter {
-  margin: auto;
+  margin: 0;
 }
 .gutter.top10 {
   margin-top: 10px;
@@ -3574,7 +3611,7 @@ textarea {
   width: 40px;
   height: 40px;
   padding: 10px;
-  color: #FFF !important;
+  color: #FFF;
   font-size: 1rem;
   text-align: center;
   text-decoration: none;
@@ -3696,7 +3733,7 @@ textarea {
 /*--------------------------------------------------
   wrap
 --------------------------------------------------*/
-.wrap {
+.site-container {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;

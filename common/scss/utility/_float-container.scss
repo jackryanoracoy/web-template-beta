@@ -78,26 +78,26 @@
 
 @each $column-width in $col-width-list {
   $i: index($col-width-list, $column-width);
-  .float-container { .float-content { &.xs#{$i} { width: nth($col-width-list, $i); } } }
+  .float-container { .float-content { &.xs#{$i} { max-width: nth($col-width-list, $i); } } }
 }
 
 @media (min-width: $media-small + 1) {
   @each $column-width in $col-width-list {
     $i: index($col-width-list, $column-width);
-    .float-container { .float-content { &.s#{$i} { width: nth($col-width-list, $i); } } }
+    .float-container { .float-content { &.s#{$i} { max-width: nth($col-width-list, $i); } } }
   }
 }
 
 @media (min-width: $media-medium + 1) {
   @each $column-width in $col-width-list {
     $i: index($col-width-list, $column-width);
-    .float-container { .float-content { &.m#{$i} { width: nth($col-width-list, $i); } } }
+    .float-container { .float-content { &.m#{$i} { max-width: nth($col-width-list, $i); } } }
   }
 }
 
 @media (min-width: $media-large + 1) {
   @each $column-width in $col-width-list {
     $i: index($col-width-list, $column-width);
-    .float-container { .float-content { &.l#{$i} { width: nth($col-width-list, $i); } } }
+    .float-container { .float-content { &.l#{$i} { max-width: nth($col-width-list, $i); } } }
   }
 }
