@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+ font-face - Noto Sans JP
+--------------------------------------------------------------*/
+
+@mixin font {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+}
+
+@mixin font-weight($font-weight) {
+  font-weight: $font-weight;
+}
+
+@font-face {
+  @include font;
+  @include font-weight(300);
+  src: local('Noto Sans TC Light'), 
+       local('NotoSansTC-Light'), 
+       url(../fonts/Noto_Sans_TC/Noto-Sans-TC-Light.woff2) format('woff2'),
+       url(../fonts/Noto_Sans_TC/Noto-Sans-TC-Light.woff) format('woff'),
+}
+
+@font-face {
+  @include font;
+  @include font-weight(400);
+  src: local('Noto Sans TC Regular'), 
+       local('NotoSansTC-Regular'), 
+       url(../fonts/Noto_Sans_TC/Noto-Sans-TC-Regular.woff2) format('woff2'),
+       url(../fonts/Noto_Sans_TC/Noto-Sans-TC-Regular.woff) format('woff'),
+}
+
+@font-face {
+  @include font;
+  @include font-weight(700);
+  src: local('Noto Sans TC Bold'), 
+       local('NotoSansTC-Bold'), 
+       url(../fonts/Noto_Sans_TC/Noto-Sans-TC-Bold.woff2) format('woff2'),
+       url(../fonts/Noto_Sans_TC/Noto-Sans-TC-Bold.woff) format('woff'),
+}

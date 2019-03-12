@@ -38,3 +38,9 @@ _utility.scss - List of utilities, located at "common/scss/utility/xxx".
 _mixin.scss -  Some mixins.  
 _print.scss - Style for print.  
 _variable.scss - Variable used for styles.  
+  
+  
+NOTE  
+------------------------------------------------------------  
+You can remove unnecessary files that won't be needed in the project.  
+e.g. codes, fonts, serviceworker (if project wont be over HTTPS), etc...  

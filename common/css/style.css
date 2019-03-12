@@ -701,46 +701,46 @@ textarea {
   flex-wrap: wrap;
   overflow: hidden;
 }
-.no-wrap.flex-container {
+
+.flex-container.no-wrap {
   flex-wrap: nowrap;
 }
-.column.flex-container {
+.flex-container.column {
   flex-direction: column;
 }
-.column-reverse.flex-container {
+.flex-container.column-reverse {
   flex-direction: column-reverse;
 }
-.row-reverse.flex-container {
+.flex-container.row-reverse {
   flex-direction: row-reverse;
 }
-.align-start.flex-container {
+.flex-container.align-start {
   align-items: flex-start;
 }
-.align-center.flex-container {
+.flex-container.align-center {
   align-items: center;
 }
-.align-end.flex-container {
+.flex-container.align-end {
   align-items: flex-end;
 }
-.justify-start.flex-container {
+.flex-container.justify-start {
   justify-content: flex-start;
 }
-.justify-center.flex-container {
+.flex-container.justify-center {
   justify-content: center;
 }
-.justify-end.flex-container {
+.flex-container.justify-end {
   justify-content: flex-end;
 }
-.justify-spacearound.flex-container {
+.flex-container.justify-spacearound {
   justify-content: space-around;
 }
-.justify-spacebetween.flex-container {
+.flex-container.justify-spacebetween {
   justify-content: space-between;
 }
-.justify-spaceevenly.flex-container {
+.flex-container.justify-spaceevenly {
   justify-content: space-evenly;
 }
-
 .flex-container.gap10 {
   margin: -5px;
 }
@@ -801,20 +801,59 @@ textarea {
 .flex-container.gap100 > div {
   padding: 50px;
 }
-.flex-container.grow > div {
+.flex-container .grow {
   flex-grow: 1;
 }
-.flex-container.no-grow > div {
+.flex-container .no-grow {
   flex-grow: 0;
 }
-.flex-container.shrink > div {
+.flex-container .shrink {
   flex-shrink: 1;
 }
-.flex-container.no-shrink > div {
+.flex-container .no-shrink {
   flex-shrink: 0;
 }
 
 @media (min-width: 993px) {
+  .flex-container.desktop-no-wrap {
+    flex-wrap: nowrap;
+  }
+  .flex-container.desktop-column {
+    flex-direction: column;
+  }
+  .flex-container.desktop-column-reverse {
+    flex-direction: column-reverse;
+  }
+  .flex-container.desktop-row-reverse {
+    flex-direction: row-reverse;
+  }
+  .flex-container.desktop-align-start {
+    align-items: flex-start;
+  }
+  .flex-container.desktop-align-center {
+    align-items: center;
+  }
+  .flex-container.desktop-align-end {
+    align-items: flex-end;
+  }
+  .flex-container.desktop-justify-start {
+    justify-content: flex-start;
+  }
+  .flex-container.desktop-justify-center {
+    justify-content: center;
+  }
+  .flex-container.desktop-justify-end {
+    justify-content: flex-end;
+  }
+  .flex-container.desktop-justify-spacearound {
+    justify-content: space-around;
+  }
+  .flex-container.desktop-justify-spacebetween {
+    justify-content: space-between;
+  }
+  .flex-container.desktop-justify-spaceevenly {
+    justify-content: space-evenly;
+  }
   .flex-container.desktop-gap10 {
     margin: -5px;
   }
@@ -875,20 +914,59 @@ textarea {
   .flex-container.desktop-gap100 > div {
     padding: 50px;
   }
-  .flex-container.desktop-grow > div {
+  .flex-container .desktop-grow {
     flex-grow: 1;
   }
-  .flex-container.desktop-no-grow > div {
+  .flex-container .desktop-no-grow {
     flex-grow: 0;
   }
-  .flex-container.desktop-shrink > div {
+  .flex-container .desktop-shrink {
     flex-shrink: 1;
   }
-  .flex-container.desktop-no-shrink > div {
+  .flex-container .desktop-no-shrink {
     flex-shrink: 0;
   }
 }
 @media (max-width: 992px) {
+  .flex-container.mobile-no-wrap {
+    flex-wrap: nowrap;
+  }
+  .flex-container.mobile-column {
+    flex-direction: column;
+  }
+  .flex-container.mobile-column-reverse {
+    flex-direction: column-reverse;
+  }
+  .flex-container.mobile-row-reverse {
+    flex-direction: row-reverse;
+  }
+  .flex-container.mobile-align-start {
+    align-items: flex-start;
+  }
+  .flex-container.mobile-align-center {
+    align-items: center;
+  }
+  .flex-container.mobile-align-end {
+    align-items: flex-end;
+  }
+  .flex-container.mobile-justify-start {
+    justify-content: flex-start;
+  }
+  .flex-container.mobile-justify-center {
+    justify-content: center;
+  }
+  .flex-container.mobile-justify-end {
+    justify-content: flex-end;
+  }
+  .flex-container.mobile-justify-spacearound {
+    justify-content: space-around;
+  }
+  .flex-container.mobile-justify-spacebetween {
+    justify-content: space-between;
+  }
+  .flex-container.mobile-justify-spaceevenly {
+    justify-content: space-evenly;
+  }
   .flex-container.mobile-gap10 {
     margin: -5px;
   }
@@ -949,16 +1027,16 @@ textarea {
   .flex-container.mobile-gap100 > div {
     padding: 50px;
   }
-  .flex-container.mobile-grow > div {
+  .flex-container .mobile-grow {
     flex-grow: 1;
   }
-  .flex-container.mobile-no-grow > div {
+  .flex-container .mobile-no-grow {
     flex-grow: 0;
   }
-  .flex-container.mobile-shrink > div {
+  .flex-container .mobile-shrink {
     flex-shrink: 1;
   }
-  .flex-container.mobile-no-shrink > div {
+  .flex-container .mobile-no-shrink {
     flex-shrink: 0;
   }
 }

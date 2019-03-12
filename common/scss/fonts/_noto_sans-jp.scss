@@ -14,8 +14,8 @@
 @font-face {
   @include font;
   @include font-weight(300);
-  src: local('Noto Sans Japanese Regular'), 
-       local('NotoSansJapanese-Regular'), 
+  src: local('Noto Sans Japanese Light'), 
+       local('NotoSansJapanese-Light'), 
        url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Light.woff2) format('woff2'),
        url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Light.woff) format('woff'),
        url(../fonts/Noto_Sans_JP/Noto-Sans-Japanese-Light.ttf) format('truetype');
